@@ -1,0 +1,49 @@
+body:     (unspecified)
+     groups/0: (inline)
+          texts/0:  (text) 'Red'
+          texts/1:  (text) 'Bold'
+          texts/2:  (text) 'Italic'
+          texts/3:  (text) 'underline'
+          texts/4:  (text) 'strikethrough subscript superscript'
+
+
+texts/0:
+     parent: groups/0
+     label: text
+     text: Red
+     orig: Red
+     formatting: []
+
+texts/1:
+     parent: groups/0
+     label: text
+     text: Bold
+     orig: Bold
+     formatting: [bold]
+
+texts/2:
+     parent: groups/0
+     label: text
+     text: Italic
+     orig: Italic
+     formatting: [italic]
+
+texts/3:
+     parent: groups/0
+     label: text
+     text: underline
+     orig: underline
+     formatting: [underline]
+
+texts/4:
+     parent: groups/0
+     label: text
+     text: strikethrough subscript superscript
+     orig: strikethrough subscript superscript
+     formatting: []
+
+groups/0:
+     parent: body
+     label: inline
+     name: group
+

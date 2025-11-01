@@ -1,0 +1,115 @@
+body:     (unspecified)
+     groups/0: (section)
+          texts/0:  (section_header) 'Section 1 heading 1'
+               texts/1:  (paragraph) 'Para 1-1'
+               texts/2:  (paragraph) 'Para 1-2'
+               texts/3:  (section_header) 'Section 1 heading 2'
+                    texts/4:  (paragraph) 'Para 2-1'
+                    texts/5:  (paragraph) 'Para 2-2'
+     groups/1: (section)
+          texts/6:  (section_header) 'Section 2 heading 1'
+               texts/7:  (paragraph) 'Para 1-1'
+               texts/8:  (paragraph) 'Para 1-2'
+               texts/9:  (section_header) 'Section 2 heading 2'
+                    texts/10: (paragraph) 'Para 2-1'
+                    texts/11: (paragraph) 'Para 2-2'
+
+
+texts/0:
+     parent: groups/0
+     label: section_header
+     level: 1
+     text: Section 1 heading 1
+     orig: Section 1 heading 1
+     formatting: None
+
+texts/1:
+     parent: texts/0
+     label: paragraph
+     text: Para 1-1
+     orig: Para 1-1
+     formatting: []
+
+texts/2:
+     parent: texts/0
+     label: paragraph
+     text: Para 1-2
+     orig: Para 1-2
+     formatting: []
+
+texts/3:
+     parent: texts/0
+     label: section_header
+     level: 2
+     text: Section 1 heading 2
+     orig: Section 1 heading 2
+     formatting: None
+
+texts/4:
+     parent: texts/3
+     label: paragraph
+     text: Para 2-1
+     orig: Para 2-1
+     formatting: []
+
+texts/5:
+     parent: texts/3
+     label: paragraph
+     text: Para 2-2
+     orig: Para 2-2
+     formatting: []
+
+texts/6:
+     parent: groups/1
+     label: section_header
+     level: 1
+     text: Section 2 heading 1
+     orig: Section 2 heading 1
+     formatting: None
+
+texts/7:
+     parent: texts/6
+     label: paragraph
+     text: Para 1-1
+     orig: Para 1-1
+     formatting: []
+
+texts/8:
+     parent: texts/6
+     label: paragraph
+     text: Para 1-2
+     orig: Para 1-2
+     formatting: []
+
+texts/9:
+     parent: texts/6
+     label: section_header
+     level: 2
+     text: Section 2 heading 2
+     orig: Section 2 heading 2
+     formatting: None
+
+texts/10:
+     parent: texts/9
+     label: paragraph
+     text: Para 2-1
+     orig: Para 2-1
+     formatting: []
+
+texts/11:
+     parent: texts/9
+     label: paragraph
+     text: Para 2-2
+     orig: Para 2-2
+     formatting: []
+
+groups/0:
+     parent: body
+     label: section
+     name: header-0
+
+groups/1:
+     parent: body
+     label: section
+     name: header-1
+

@@ -1,0 +1,49 @@
+body:     (unspecified)
+     groups/0: (inline)
+          texts/0:  (paragraph) 'This is a word document and this is an inline equa..'
+          texts/1:  (formula) 'A=πr2 '
+          texts/2:  (paragraph) '. If instead, I want an equation by line, I can do..'
+     texts/3:  (paragraph)
+     texts/4:  (formula) 'a2+b2=c2 × 23'
+
+
+texts/0:
+     parent: groups/0
+     label: paragraph
+     text: This is a word document and this is an inline equation: 
+     orig: This is a word document and this is an inline equation: 
+     formatting: []
+
+texts/1:
+     parent: groups/0
+     label: formula
+     text: A=πr2 
+     orig: A=πr2 
+     formatting: None
+
+texts/2:
+     parent: groups/0
+     label: paragraph
+     text: . If instead, I want an equation by line, I can do this:
+     orig: . If instead, I want an equation by line, I can do this:
+     formatting: []
+
+texts/3:
+     parent: body
+     label: paragraph
+     text: 
+     orig: 
+     formatting: None
+
+texts/4:
+     parent: body
+     label: formula
+     text: a2+b2=c2 × 23
+     orig: a2+b2=c2 × 23
+     formatting: None
+
+groups/0:
+     parent: body
+     label: inline
+     name: group
+

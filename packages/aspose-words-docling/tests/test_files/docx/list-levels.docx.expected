@@ -1,0 +1,91 @@
+body:     (unspecified)
+     groups/0: (list)
+          texts/0:  (list_item) 'Item1'
+          texts/1:  (list_item) 'Item2'
+          groups/1: (list)
+               texts/2:  (list_item) 'Item2-a'
+               texts/3:  (list_item) 'Item2-b'
+               groups/2: (list)
+                    texts/4:  (list_item) 'Item-2-b-bullet1'
+                    texts/5:  (list_item) 'Item-2-b-bullet2'
+          texts/6:  (list_item) 'Item3-3'
+
+
+texts/0:
+     parent: groups/0
+     label: list_item
+     text: Item1
+     orig: Item1
+     formatting: []
+     enumerated: True
+     marker: 1.
+
+texts/1:
+     parent: groups/0
+     label: list_item
+     text: Item2
+     orig: Item2
+     formatting: []
+     enumerated: True
+     marker: 2.
+
+texts/2:
+     parent: groups/1
+     label: list_item
+     text: Item2-a
+     orig: Item2-a
+     formatting: []
+     enumerated: True
+     marker: a.
+
+texts/3:
+     parent: groups/1
+     label: list_item
+     text: Item2-b
+     orig: Item2-b
+     formatting: []
+     enumerated: True
+     marker: b.
+
+texts/4:
+     parent: groups/2
+     label: list_item
+     text: Item-2-b-bullet1
+     orig: Item-2-b-bullet1
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/5:
+     parent: groups/2
+     label: list_item
+     text: Item-2-b-bullet2
+     orig: Item-2-b-bullet2
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/6:
+     parent: groups/0
+     label: list_item
+     text: Item3-3
+     orig: Item3-3
+     formatting: []
+     enumerated: True
+     marker: 3.
+
+groups/0:
+     parent: body
+     label: list
+     name: list
+
+groups/1:
+     parent: groups/0
+     label: list
+     name: list
+
+groups/2:
+     parent: groups/1
+     label: list
+     name: list
+

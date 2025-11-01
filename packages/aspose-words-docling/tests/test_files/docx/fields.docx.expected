@@ -1,0 +1,89 @@
+body:     (unspecified)
+     groups/0: (inline)
+          texts/0:  (paragraph) 'Author:'
+          texts/1:  (paragraph) 'Alexey Butalov'
+     texts/2:  (paragraph) 'Some comment'
+     texts/3:  (paragraph) 'Friday, September 26, 2025 HEADING.DOCX '
+     groups/1: (list)
+          texts/4:  (list_item) 'Item1 Pages count: 1'
+          texts/5:  (list_item)
+               groups/2: (inline)
+                    texts/6:  (paragraph) 'Item 2'
+                    texts/7:  (paragraph) 'File size: 13704'
+
+
+texts/0:
+     parent: groups/0
+     label: paragraph
+     text: Author:
+     orig: Author:
+     formatting: [bold]
+
+texts/1:
+     parent: groups/0
+     label: paragraph
+     text: Alexey Butalov
+     orig: Alexey Butalov
+     formatting: []
+
+texts/2:
+     parent: body
+     label: paragraph
+     text: Some comment
+     orig: Some comment
+     formatting: []
+
+texts/3:
+     parent: body
+     label: paragraph
+     text: Friday, September 26, 2025 HEADING.DOCX 
+     orig: Friday, September 26, 2025 HEADING.DOCX 
+     formatting: []
+
+texts/4:
+     parent: groups/1
+     label: list_item
+     text: Item1 Pages count: 1
+     orig: Item1 Pages count: 1
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/5:
+     parent: groups/1
+     label: list_item
+     text: 
+     orig: 
+     formatting: None
+     enumerated: False
+     marker: 
+
+texts/6:
+     parent: groups/2
+     label: paragraph
+     text: Item 2
+     orig: Item 2
+     formatting: [italic]
+
+texts/7:
+     parent: groups/2
+     label: paragraph
+     text: File size: 13704
+     orig: File size: 13704
+     formatting: []
+
+groups/0:
+     parent: body
+     label: inline
+     name: group
+
+groups/1:
+     parent: body
+     label: list
+     name: list
+
+groups/2:
+     parent: texts/5
+     label: inline
+     name: group
+

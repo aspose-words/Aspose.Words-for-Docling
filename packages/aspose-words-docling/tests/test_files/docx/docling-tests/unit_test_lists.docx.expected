@@ -1,0 +1,500 @@
+body:     (unspecified)
+     texts/0:  (section_header) 'Test Document'
+          texts/1:  (paragraph)
+          texts/2:  (paragraph)
+          texts/3:  (paragraph) 'Paragraph 2.1.1'
+          texts/4:  (paragraph)
+          texts/5:  (paragraph) 'Paragraph 2.1.2'
+          texts/6:  (paragraph)
+          texts/7:  (section_header) 'Test 1:'
+               groups/0: (list)
+                    texts/8:  (list_item) 'List item 1'
+                    texts/9:  (list_item) 'List item 2'
+                    texts/10: (list_item) 'List item 3'
+               texts/11: (paragraph)
+          texts/12: (section_header) 'Test 2:'
+               groups/1: (list)
+                    texts/13: (list_item) 'List item a'
+                    texts/14: (list_item) 'List item b'
+                    texts/15: (list_item) 'List item c'
+               texts/16: (paragraph)
+          texts/17: (section_header) 'Test 3:'
+               groups/2: (list)
+                    texts/18: (list_item) 'List item 1'
+                    texts/19: (list_item) 'List item 2'
+                    groups/3: (list)
+                         texts/20: (list_item) 'List item 1.1'
+                         texts/21: (list_item) 'List item 1.2'
+                         texts/22: (list_item) 'List item 1.3'
+                    texts/23: (list_item) 'List item 3'
+               texts/24: (paragraph)
+          texts/25: (section_header) 'Test 4:'
+               groups/4: (list)
+                    texts/26: (list_item) 'List item 1'
+                    groups/5: (list)
+                         texts/27: (list_item) 'List item 1.1'
+                    texts/28: (list_item) 'List item 2'
+               texts/29: (paragraph)
+          texts/30: (section_header) 'Test 5:'
+               groups/6: (list)
+                    texts/31: (list_item) 'List item 1'
+                    groups/7: (list)
+                         texts/32: (list_item) 'List item 1.1'
+                         groups/8: (list)
+                              texts/33: (list_item) 'List item 1.1.1'
+                    texts/34: (list_item) 'List item 3'
+               texts/35: (paragraph)
+          texts/36: (section_header) 'Test 6:'
+               groups/9: (list)
+                    texts/37: (list_item) 'List item 1'
+                    texts/38: (list_item) 'List item 2'
+                    groups/10: (list)
+                         texts/39: (list_item) 'List item 1.1'
+                         texts/40: (list_item) 'List item 1.2'
+                         groups/11: (list)
+                              texts/41: (list_item) 'List item 1.2.1'
+                    texts/42: (list_item) 'List item 3'
+               texts/43: (paragraph)
+               texts/44: (paragraph)
+               texts/45: (paragraph)
+
+
+texts/0:
+     parent: body
+     label: section_header
+     level: 1
+     text: Test Document
+     orig: Test Document
+     formatting: None
+
+texts/1:
+     parent: texts/0
+     label: paragraph
+     text: 
+     orig: 
+     formatting: None
+
+texts/2:
+     parent: texts/0
+     label: paragraph
+     text: 
+     orig: 
+     formatting: None
+
+texts/3:
+     parent: texts/0
+     label: paragraph
+     text: Paragraph 2.1.1
+     orig: Paragraph 2.1.1
+     formatting: []
+
+texts/4:
+     parent: texts/0
+     label: paragraph
+     text: 
+     orig: 
+     formatting: None
+
+texts/5:
+     parent: texts/0
+     label: paragraph
+     text: Paragraph 2.1.2
+     orig: Paragraph 2.1.2
+     formatting: []
+
+texts/6:
+     parent: texts/0
+     label: paragraph
+     text: 
+     orig: 
+     formatting: None
+
+texts/7:
+     parent: texts/0
+     label: section_header
+     level: 3
+     text: Test 1:
+     orig: Test 1:
+     formatting: None
+
+texts/8:
+     parent: groups/0
+     label: list_item
+     text: List item 1
+     orig: List item 1
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/9:
+     parent: groups/0
+     label: list_item
+     text: List item 2
+     orig: List item 2
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/10:
+     parent: groups/0
+     label: list_item
+     text: List item 3
+     orig: List item 3
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/11:
+     parent: texts/7
+     label: paragraph
+     text: 
+     orig: 
+     formatting: None
+
+texts/12:
+     parent: texts/0
+     label: section_header
+     level: 3
+     text: Test 2:
+     orig: Test 2:
+     formatting: None
+
+texts/13:
+     parent: groups/1
+     label: list_item
+     text: List item a
+     orig: List item a
+     formatting: []
+     enumerated: True
+     marker: 1.
+
+texts/14:
+     parent: groups/1
+     label: list_item
+     text: List item b
+     orig: List item b
+     formatting: []
+     enumerated: True
+     marker: 2.
+
+texts/15:
+     parent: groups/1
+     label: list_item
+     text: List item c
+     orig: List item c
+     formatting: []
+     enumerated: True
+     marker: 3.
+
+texts/16:
+     parent: texts/12
+     label: paragraph
+     text: 
+     orig: 
+     formatting: None
+
+texts/17:
+     parent: texts/0
+     label: section_header
+     level: 3
+     text: Test 3:
+     orig: Test 3:
+     formatting: None
+
+texts/18:
+     parent: groups/2
+     label: list_item
+     text: List item 1
+     orig: List item 1
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/19:
+     parent: groups/2
+     label: list_item
+     text: List item 2
+     orig: List item 2
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/20:
+     parent: groups/3
+     label: list_item
+     text: List item 1.1
+     orig: List item 1.1
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/21:
+     parent: groups/3
+     label: list_item
+     text: List item 1.2
+     orig: List item 1.2
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/22:
+     parent: groups/3
+     label: list_item
+     text: List item 1.3
+     orig: List item 1.3
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/23:
+     parent: groups/2
+     label: list_item
+     text: List item 3
+     orig: List item 3
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/24:
+     parent: texts/17
+     label: paragraph
+     text: 
+     orig: 
+     formatting: None
+
+texts/25:
+     parent: texts/0
+     label: section_header
+     level: 3
+     text: Test 4:
+     orig: Test 4:
+     formatting: None
+
+texts/26:
+     parent: groups/4
+     label: list_item
+     text: List item 1
+     orig: List item 1
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/27:
+     parent: groups/5
+     label: list_item
+     text: List item 1.1
+     orig: List item 1.1
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/28:
+     parent: groups/4
+     label: list_item
+     text: List item 2
+     orig: List item 2
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/29:
+     parent: texts/25
+     label: paragraph
+     text: 
+     orig: 
+     formatting: None
+
+texts/30:
+     parent: texts/0
+     label: section_header
+     level: 3
+     text: Test 5:
+     orig: Test 5:
+     formatting: None
+
+texts/31:
+     parent: groups/6
+     label: list_item
+     text: List item 1
+     orig: List item 1
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/32:
+     parent: groups/7
+     label: list_item
+     text: List item 1.1
+     orig: List item 1.1
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/33:
+     parent: groups/8
+     label: list_item
+     text: List item 1.1.1
+     orig: List item 1.1.1
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/34:
+     parent: groups/6
+     label: list_item
+     text: List item 3
+     orig: List item 3
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/35:
+     parent: texts/30
+     label: paragraph
+     text: 
+     orig: 
+     formatting: None
+
+texts/36:
+     parent: texts/0
+     label: section_header
+     level: 3
+     text: Test 6:
+     orig: Test 6:
+     formatting: None
+
+texts/37:
+     parent: groups/9
+     label: list_item
+     text: List item 1
+     orig: List item 1
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/38:
+     parent: groups/9
+     label: list_item
+     text: List item 2
+     orig: List item 2
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/39:
+     parent: groups/10
+     label: list_item
+     text: List item 1.1
+     orig: List item 1.1
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/40:
+     parent: groups/10
+     label: list_item
+     text: List item 1.2
+     orig: List item 1.2
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/41:
+     parent: groups/11
+     label: list_item
+     text: List item 1.2.1
+     orig: List item 1.2.1
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/42:
+     parent: groups/9
+     label: list_item
+     text: List item 3
+     orig: List item 3
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/43:
+     parent: texts/36
+     label: paragraph
+     text: 
+     orig: 
+     formatting: None
+
+texts/44:
+     parent: texts/36
+     label: paragraph
+     text: 
+     orig: 
+     formatting: None
+
+texts/45:
+     parent: texts/36
+     label: paragraph
+     text: 
+     orig: 
+     formatting: None
+
+groups/0:
+     parent: texts/7
+     label: list
+     name: list
+
+groups/1:
+     parent: texts/12
+     label: list
+     name: list
+
+groups/2:
+     parent: texts/17
+     label: list
+     name: list
+
+groups/3:
+     parent: groups/2
+     label: list
+     name: list
+
+groups/4:
+     parent: texts/25
+     label: list
+     name: list
+
+groups/5:
+     parent: groups/4
+     label: list
+     name: list
+
+groups/6:
+     parent: texts/30
+     label: list
+     name: list
+
+groups/7:
+     parent: groups/6
+     label: list
+     name: list
+
+groups/8:
+     parent: groups/7
+     label: list
+     name: list
+
+groups/9:
+     parent: texts/36
+     label: list
+     name: list
+
+groups/10:
+     parent: groups/9
+     label: list
+     name: list
+
+groups/11:
+     parent: groups/10
+     label: list
+     name: list
+
