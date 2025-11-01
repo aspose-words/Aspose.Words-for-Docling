@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "aspose-words-docling"
+dynamic = ["version"]
+description = "Aspose.Words plugin for Docling"
+readme = "README.md"
+requires-python = ">=3.13"
+license = "MIT"
+keywords = ["aspose", "docling", "plugin", "word", "doc", "epub", "mhtml", "pdf", "rtf", "odt", "conversion"]
+authors = [  
+  { name = "Aspose", email = "support@aspose.com" }
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.13",
+]
+dependencies = [
+  "docling>=2.60.0",
+  "aspose-words>=25.10.0"
+]
+
+[project.urls]
+Documentation = "https://github.com/aspose-words/Aspose.Words-for-Docling#readme"
+Repository = "https://github.com/aspose-words/Aspose.Words-for-Docling"
+Examples = "https://github.com/aspose-words/Aspose.Words-for-Docling/blob/main/packages/aspose-words-docling/tests/test_plugin.py"
+"Free Support" = "https://forum.aspose.com/c/words/8"
+
+
+[tool.hatch.version]
+path = "src/aspose_words_docling/__about__.py"
+
+[tool.hatch.build.targets.sdist]
+only-include = ["src/aspose_words_docling"]
