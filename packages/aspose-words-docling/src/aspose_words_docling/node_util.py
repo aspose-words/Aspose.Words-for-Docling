@@ -59,7 +59,9 @@ class NodeUtil:
 
 
     def get_office_math_text(om: aw.math.OfficeMath) -> str:
-        return om. get_text() # TODO https://issue.auckland.dynabic.com/issues/WORDSNET-28695
+        mso = aw.saving.MarkdownSaveOptions()
+        mso.office_math_export_mode = aw.saving.MarkdownOfficeMathExportMode.LATEX
+        return om.to_string(mso) # TODO https://issue.auckland.dynabic.com/issues/WORDSNET-28695
 
 
     def get_cell_text(cell: aw.tables.Cell) -> str:
