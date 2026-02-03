@@ -1,0 +1,100 @@
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="=boundary.Aspose.Words=--"
+
+This is a multi-part message in MIME format.
+
+--=boundary.Aspose.Words=--
+Content-Disposition: inline;
+	filename="document.html"
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: document.html
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dutf-8" /><meta http-equiv=3D"Content-Style-Type" content=3D"text/css" />=
+<meta name=3D"generator" content=3D"Aspose.Words for .NET 25.11.0" /><title=
+>HTML Test File</title></head><body style=3D"font-family:Arial; font-size:1=
+2pt"><div><h1 style=3D"margin:16.1pt 15pt; font-size:24pt"><span>Main Headi=
+ng (h1)</span></h1><h2 style=3D"margin:14.95pt 15pt; font-size:18pt"><span>=
+Subheading (h2)</span></h2><h3 style=3D"margin:14.05pt 15pt; font-size:14pt=
+"><span>Section Title (h3)</span></h3><p style=3D"margin:12pt 15pt"><span>T=
+his is a </span><span style=3D"font-weight:bold">paragraph</span><span> wit=
+h a </span><a href=3D"https://example.com" style=3D"text-decoration:none"><=
+span style=3D"text-decoration:underline">hyperlink</span></a><span>.</span>=
+</p><div align=3D"center" style=3D"margin-right:15pt; margin-left:15pt"><hr=
+ size=3D"2" align=3D"center" style=3D"width:100%" /></div><h2 style=3D"marg=
+in:14.95pt 15pt; font-size:18pt"><span>Lists</span></h2><h3 style=3D"margin=
+:14.05pt 15pt; font-size:14pt"><span>Unordered List</span></h3><ul type=3D"=
+disc" style=3D"margin:0pt; padding-left:0pt"><li style=3D"margin-top:12pt; =
+margin-right:15pt; margin-left:51pt; font-family:serif"><span style=3D"font=
+-family:Arial">Apple</span></li><li style=3D"margin-right:15pt; margin-left=
+:51pt; font-family:serif"><span style=3D"font-family:Arial">Banana</span></=
+li><li style=3D"margin-right:15pt; margin-left:51pt; margin-bottom:12pt; fo=
+nt-family:serif"><span style=3D"font-family:Arial">Orange</span></li></ul><=
+h3 style=3D"margin:14.05pt 15pt; font-size:14pt"><span>Ordered List</span><=
+/h3><ol type=3D"1" style=3D"margin:0pt; padding-left:0pt"><li style=3D"marg=
+in-top:12pt; margin-right:15pt; margin-left:51pt"><span>Step one</span></li=
+><li style=3D"margin-right:15pt; margin-left:51pt"><span>Step two</span></l=
+i><li style=3D"margin-right:15pt; margin-left:51pt; margin-bottom:12pt"><sp=
+an>Step three</span></li></ol><div align=3D"center" style=3D"margin-right:1=
+5pt; margin-left:15pt"><hr size=3D"2" align=3D"center" style=3D"width:100%"=
+ /></div><h2 style=3D"margin:14.95pt 15pt; font-size:18pt"><span>Table</spa=
+n></h2><table cellspacing=3D"0" cellpadding=3D"0" style=3D"margin-left:15pt=
+; border:0.75pt solid #444444; border-collapse:collapse"><tr><td style=3D"b=
+order-right:0.75pt solid #444444; border-bottom:0.75pt solid #444444; paddi=
+ng:4.5pt 4.53pt; vertical-align:middle"><p style=3D"margin-top:0pt; margin-=
+bottom:0pt; text-align:center; font-size:12pt"><span style=3D"font-weight:b=
+old">Item</span></p></td><td style=3D"border-left:0.75pt solid #444444; bor=
+der-bottom:0.75pt solid #444444; padding:4.5pt 4.53pt; vertical-align:middl=
+e"><p style=3D"margin-top:0pt; margin-bottom:0pt; text-align:center; font-s=
+ize:12pt"><span style=3D"font-weight:bold">Value</span></p></td></tr><tr><t=
+d style=3D"border-top:0.75pt solid #444444; border-right:0.75pt solid #4444=
+44; border-bottom:0.75pt solid #444444; padding:4.5pt 4.53pt; vertical-alig=
+n:middle"><p style=3D"margin-top:0pt; margin-bottom:0pt; font-size:12pt"><s=
+pan>Item A</span></p></td><td style=3D"border-top:0.75pt solid #444444; bor=
+der-left:0.75pt solid #444444; border-bottom:0.75pt solid #444444; padding:=
+4.5pt 4.53pt; vertical-align:middle"><p style=3D"margin-top:0pt; margin-bot=
+tom:0pt; font-size:12pt"><span>10</span></p></td></tr><tr><td style=3D"bord=
+er-top:0.75pt solid #444444; border-right:0.75pt solid #444444; padding:4.5=
+pt 4.53pt; vertical-align:middle"><p style=3D"margin-top:0pt; margin-bottom=
+:0pt; font-size:12pt"><span>Item B</span></p></td><td style=3D"border-top:0=
+.75pt solid #444444; border-left:0.75pt solid #444444; padding:4.5pt 4.53pt=
+; vertical-align:middle"><p style=3D"margin-top:0pt; margin-bottom:0pt; fon=
+t-size:12pt"><span>20</span></p></td></tr></table><div align=3D"center" sty=
+le=3D"margin-right:15pt; margin-left:15pt"><hr size=3D"2" align=3D"center" =
+style=3D"width:100%" /></div><h2 style=3D"margin:14.95pt 15pt; font-size:18=
+pt"><span>Images</span></h2><p style=3D"margin:12pt 15pt"><span>Example pla=
+ceholder image:</span></p><p style=3D"margin:0pt 15pt"><img src=3D"image.00=
+1.png" width=3D"33" height=3D"33" alt=3D"Placeholder image" /><span> </span=
+></p><div align=3D"center" style=3D"margin-right:15pt; margin-left:15pt"><h=
+r size=3D"2" align=3D"center" style=3D"width:100%" /></div><div align=3D"ce=
+nter" style=3D"margin-right:15pt; margin-left:15pt"><hr size=3D"2" align=3D=
+"center" style=3D"width:100%" /></div><h2 style=3D"margin:14.95pt 15pt; fon=
+t-size:18pt"><span>Block Elements</span></h2><p style=3D"margin:7.5pt 15.5p=
+t; border:0.75pt solid #aaaaaa; padding:7pt"><span>This is a DIV block.</sp=
+an></p><p style=3D"margin:0pt 15pt"><span>This is a SPAN inline element. </=
+span></p><div align=3D"center" style=3D"margin-right:15pt; margin-left:15pt=
+"><hr size=3D"2" align=3D"center" style=3D"width:100%" /></div><h2 style=3D=
+"margin:14.95pt 15pt; font-size:18pt"><span>Quotes</span></h2><p style=3D"m=
+argin:12pt 45pt"><span>This is a blockquote example. </span></p><p style=3D=
+"margin:0pt 15pt 15pt"><span>This is an inline quote.</span></p></div></bod=
+y></html>
+
+--=boundary.Aspose.Words=--
+Content-Disposition: inline;
+	filename="image.001.png"
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: image.001.png
+
+iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAM1JREFUWIXtlt0OgyAMRvvVvbfyZvpgtLsgnRu7oMKmmHASo5iGnrT1
+B6qqdCEAwFcKGEPCGBJGFxIPT1AIoWrzeZ59gepgWRZP2It1XRWAikgxlnppx5Aw6iSYiQAi++zk
+64O4no4vRFJi5s97QNV29e2IcU/aINAmMU17+d+vT5NgTklF0tEoUjcTMaaztSBfnyKRJ2uYB7r3
+e+LHuNuxbdvfJOD522Y+XjBVJREhFOYFAFyViDb9BykJGC4J72a1dDGYQ8IYEsaQ6Ionx/es2pZ7
+DMgAAAAASUVORK5CYII=
+
+--=boundary.Aspose.Words=----

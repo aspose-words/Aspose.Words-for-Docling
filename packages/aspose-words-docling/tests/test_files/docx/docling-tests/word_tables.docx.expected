@@ -1,25 +1,26 @@
 body:     (unspecified)
-     texts/0:  (section_header) 'Test with tables'
-          texts/1:  (paragraph) 'A uniform table'
-          tables/0: (table)
-          texts/2:  (paragraph)
-          texts/3:  (paragraph) 'A non-uniform table with horizontal spans'
-          tables/1: (table)
-          texts/4:  (paragraph)
-          texts/5:  (paragraph) 'A non-uniform table with horizontal spans in inner..'
-          tables/2: (table)
-          texts/6:  (paragraph)
-          texts/7:  (paragraph) 'A non-uniform table with vertical spans'
-          tables/3: (table)
-          texts/8:  (paragraph)
-          texts/9:  (paragraph) 'A non-uniform table with all kinds of spans and em..'
-          tables/4: (table)
-          texts/10: (paragraph)
-          texts/11: (paragraph)
+     groups/0: (section)
+          texts/0:  (section_header) 'Test with tables'
+               texts/1:  (text) 'A uniform table'
+               tables/0: (table)
+               texts/2:  (text)
+               texts/3:  (text) 'A non-uniform table with horizontal spans'
+               tables/1: (table)
+               texts/4:  (text)
+               texts/5:  (text) 'A non-uniform table with horizontal spans in inner columns'
+               tables/2: (table)
+               texts/6:  (text)
+               texts/7:  (text) 'A non-uniform table with vertical spans'
+               tables/3: (table)
+               texts/8:  (text)
+               texts/9:  (text) 'A non-uniform table with all kinds of spans and empty cells'
+               tables/4: (table)
+               texts/10: (text)
+               texts/11: (text)
 
 
 texts/0:
-     parent: body
+     parent: groups/0
      label: section_header
      level: 1
      text: Test with tables
@@ -28,80 +29,85 @@ texts/0:
 
 texts/1:
      parent: texts/0
-     label: paragraph
+     label: text
      text: A uniform table
      orig: A uniform table
      formatting: []
 
 texts/2:
      parent: texts/0
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/3:
      parent: texts/0
-     label: paragraph
+     label: text
      text: A non-uniform table with horizontal spans
      orig: A non-uniform table with horizontal spans
      formatting: []
 
 texts/4:
      parent: texts/0
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/5:
      parent: texts/0
-     label: paragraph
+     label: text
      text: A non-uniform table with horizontal spans in inner columns
      orig: A non-uniform table with horizontal spans in inner columns
      formatting: []
 
 texts/6:
      parent: texts/0
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/7:
      parent: texts/0
-     label: paragraph
+     label: text
      text: A non-uniform table with vertical spans
      orig: A non-uniform table with vertical spans
      formatting: []
 
 texts/8:
      parent: texts/0
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/9:
      parent: texts/0
-     label: paragraph
+     label: text
      text: A non-uniform table with all kinds of spans and empty cells
      orig: A non-uniform table with all kinds of spans and empty cells
      formatting: []
 
 texts/10:
      parent: texts/0
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/11:
      parent: texts/0
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
+
+groups/0:
+     parent: body
+     label: section
+     name: header-0
 
 tables/0:
      parent: texts/0
@@ -113,7 +119,7 @@ tables/0:
           start_col_offset_idx: 0
           end_col_offset_idx: 1
           text: Header 0.0
-          column_header: True
+          column_header: False
           row_header: False
           row_section: False
      cell/1:
@@ -124,7 +130,7 @@ tables/0:
           start_col_offset_idx: 1
           end_col_offset_idx: 2
           text: Header 0.1
-          column_header: True
+          column_header: False
           row_header: False
           row_section: False
      cell/2:
@@ -135,7 +141,7 @@ tables/0:
           start_col_offset_idx: 2
           end_col_offset_idx: 3
           text: Header 0.2
-          column_header: True
+          column_header: False
           row_header: False
           row_section: False
      cell/3:
@@ -215,7 +221,7 @@ tables/1:
           start_col_offset_idx: 0
           end_col_offset_idx: 1
           text: Header 0.0
-          column_header: True
+          column_header: False
           row_header: False
           row_section: False
      cell/1:
@@ -226,7 +232,7 @@ tables/1:
           start_col_offset_idx: 1
           end_col_offset_idx: 2
           text: Header 0.1
-          column_header: True
+          column_header: False
           row_header: False
           row_section: False
      cell/2:
@@ -237,7 +243,7 @@ tables/1:
           start_col_offset_idx: 2
           end_col_offset_idx: 3
           text: Header 0.2
-          column_header: True
+          column_header: False
           row_header: False
           row_section: False
      cell/3:
@@ -295,7 +301,7 @@ tables/2:
           start_col_offset_idx: 0
           end_col_offset_idx: 1
           text: Header 0.0
-          column_header: True
+          column_header: False
           row_header: False
           row_section: False
      cell/1:
@@ -306,7 +312,7 @@ tables/2:
           start_col_offset_idx: 1
           end_col_offset_idx: 2
           text: Header 0.1
-          column_header: True
+          column_header: False
           row_header: False
           row_section: False
      cell/2:
@@ -317,7 +323,7 @@ tables/2:
           start_col_offset_idx: 2
           end_col_offset_idx: 3
           text: Header 0.2
-          column_header: True
+          column_header: False
           row_header: False
           row_section: False
      cell/3:
@@ -328,7 +334,7 @@ tables/2:
           start_col_offset_idx: 3
           end_col_offset_idx: 4
           text: Header 0.3
-          column_header: True
+          column_header: False
           row_header: False
           row_section: False
      cell/4:
@@ -408,7 +414,7 @@ tables/3:
           start_col_offset_idx: 0
           end_col_offset_idx: 1
           text: Header 0.0
-          column_header: True
+          column_header: False
           row_header: False
           row_section: False
      cell/1:
@@ -419,7 +425,7 @@ tables/3:
           start_col_offset_idx: 1
           end_col_offset_idx: 2
           text: Header 0.1
-          column_header: True
+          column_header: False
           row_header: False
           row_section: False
      cell/2:
@@ -430,7 +436,7 @@ tables/3:
           start_col_offset_idx: 2
           end_col_offset_idx: 3
           text: Header 0.2
-          column_header: True
+          column_header: False
           row_header: False
           row_section: False
      cell/3:
@@ -554,7 +560,7 @@ tables/4:
           start_col_offset_idx: 0
           end_col_offset_idx: 1
           text: Header 0.0
-          column_header: True
+          column_header: False
           row_header: False
           row_section: False
      cell/1:
@@ -565,7 +571,7 @@ tables/4:
           start_col_offset_idx: 1
           end_col_offset_idx: 2
           text: Header 0.1
-          column_header: True
+          column_header: False
           row_header: False
           row_section: False
      cell/2:
@@ -576,7 +582,7 @@ tables/4:
           start_col_offset_idx: 2
           end_col_offset_idx: 3
           text: Header 0.2
-          column_header: True
+          column_header: False
           row_header: False
           row_section: False
      cell/3:
@@ -587,7 +593,7 @@ tables/4:
           start_col_offset_idx: 3
           end_col_offset_idx: 4
           text: 
-          column_header: True
+          column_header: False
           row_header: False
           row_section: False
      cell/4:
@@ -598,7 +604,7 @@ tables/4:
           start_col_offset_idx: 4
           end_col_offset_idx: 5
           text: 
-          column_header: True
+          column_header: False
           row_header: False
           row_section: False
      cell/5:

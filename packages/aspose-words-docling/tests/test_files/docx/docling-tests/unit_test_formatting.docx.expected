@@ -1,124 +1,124 @@
 body:     (unspecified)
-     texts/0:  (paragraph) 'italic'
-     texts/1:  (paragraph) 'bold'
-     texts/2:  (paragraph) 'underline'
-     texts/3:  (paragraph) 'hyperlink'
-     texts/4:  (paragraph) 'italic and bold hyperlink'
+     texts/0:  (text) 'italic'
+     texts/1:  (text) 'bold'
+     texts/2:  (text) 'underline'
+     texts/3:  (text) 'hyperlink'
+     texts/4:  (text) 'italic and bold hyperlink'
      groups/0: (inline)
-          texts/5:  (paragraph) 'Normal'
-          texts/6:  (paragraph) 'italic'
-          texts/7:  (paragraph) 'bold'
-          texts/8:  (paragraph) 'underline'
-          texts/9:  (paragraph) 'and'
-          texts/10: (paragraph) 'hyperlink'
-          texts/11: (paragraph) 'on the same line'
-     texts/12: (paragraph)
+          texts/5:  (text) 'Normal'
+          texts/6:  (text) 'italic'
+          texts/7:  (text) 'bold'
+          texts/8:  (text) 'underline'
+          texts/9:  (text) 'and'
+          texts/10: (text) 'hyperlink'
+          texts/11: (text) 'on the same line'
+     texts/12: (text)
      groups/1: (list)
           texts/13: (list_item) 'Italic bullet 1'
           texts/14: (list_item) 'Bold bullet 2'
           texts/15: (list_item) 'Underline bullet 3'
           texts/16: (list_item)
                groups/2: (inline)
-                    texts/17: (paragraph) 'Some'
-                    texts/18: (paragraph) 'italic'
-                    texts/19: (paragraph) 'bold'
-                    texts/20: (paragraph) 'underline'
+                    texts/17: (text) 'Some'
+                    texts/18: (text) 'italic'
+                    texts/19: (text) 'bold'
+                    texts/20: (text) 'underline'
           groups/3: (list)
                texts/21: (list_item)
                     groups/4: (inline)
-                         texts/22: (paragraph) 'Nested'
-                         texts/23: (paragraph) 'italic'
-                         texts/24: (paragraph) 'bold'
-     texts/25: (paragraph)
+                         texts/22: (text) 'Nested'
+                         texts/23: (text) 'italic'
+                         texts/24: (text) 'bold'
+     texts/25: (text)
 
 
 texts/0:
      parent: body
-     label: paragraph
+     label: text
      text: italic
      orig: italic
      formatting: [italic]
 
 texts/1:
      parent: body
-     label: paragraph
+     label: text
      text: bold
      orig: bold
      formatting: [bold]
 
 texts/2:
      parent: body
-     label: paragraph
+     label: text
      text: underline
      orig: underline
      formatting: [underline]
 
 texts/3:
      parent: body
-     label: paragraph
+     label: text
      text: hyperlink
      orig: hyperlink
-     formatting: []
+     formatting: [underline]
 
 texts/4:
      parent: body
-     label: paragraph
+     label: text
      text: italic and bold hyperlink
      orig: italic and bold hyperlink
-     formatting: [bold italic]
+     formatting: [bold italic underline]
 
 texts/5:
      parent: groups/0
-     label: paragraph
+     label: text
      text: Normal
      orig: Normal
      formatting: []
 
 texts/6:
      parent: groups/0
-     label: paragraph
+     label: text
      text: italic
      orig: italic
      formatting: [italic]
 
 texts/7:
      parent: groups/0
-     label: paragraph
+     label: text
      text: bold
      orig: bold
      formatting: [bold]
 
 texts/8:
      parent: groups/0
-     label: paragraph
+     label: text
      text: underline
      orig: underline
      formatting: [underline]
 
 texts/9:
      parent: groups/0
-     label: paragraph
+     label: text
      text: and
      orig: and
      formatting: []
 
 texts/10:
      parent: groups/0
-     label: paragraph
+     label: text
      text: hyperlink
      orig: hyperlink
-     formatting: []
+     formatting: [underline]
 
 texts/11:
      parent: groups/0
-     label: paragraph
+     label: text
      text: on the same line
      orig: on the same line
      formatting: []
 
 texts/12:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
@@ -130,7 +130,7 @@ texts/13:
      orig: Italic bullet 1
      formatting: [italic]
      enumerated: False
-     marker: 
+     marker: 
 
 texts/14:
      parent: groups/1
@@ -139,7 +139,7 @@ texts/14:
      orig: Bold bullet 2
      formatting: [bold]
      enumerated: False
-     marker: 
+     marker: 
 
 texts/15:
      parent: groups/1
@@ -148,7 +148,7 @@ texts/15:
      orig: Underline bullet 3
      formatting: [underline]
      enumerated: False
-     marker: 
+     marker: 
 
 texts/16:
      parent: groups/1
@@ -157,32 +157,32 @@ texts/16:
      orig: 
      formatting: None
      enumerated: False
-     marker: 
+     marker: 
 
 texts/17:
      parent: groups/2
-     label: paragraph
+     label: text
      text: Some
      orig: Some
      formatting: []
 
 texts/18:
      parent: groups/2
-     label: paragraph
+     label: text
      text: italic
      orig: italic
      formatting: [italic]
 
 texts/19:
      parent: groups/2
-     label: paragraph
+     label: text
      text: bold
      orig: bold
      formatting: [bold]
 
 texts/20:
      parent: groups/2
-     label: paragraph
+     label: text
      text: underline
      orig: underline
      formatting: [underline]
@@ -194,32 +194,32 @@ texts/21:
      orig: 
      formatting: None
      enumerated: False
-     marker: 
+     marker: o
 
 texts/22:
      parent: groups/4
-     label: paragraph
+     label: text
      text: Nested
      orig: Nested
      formatting: []
 
 texts/23:
      parent: groups/4
-     label: paragraph
+     label: text
      text: italic
      orig: italic
      formatting: [italic]
 
 texts/24:
      parent: groups/4
-     label: paragraph
+     label: text
      text: bold
      orig: bold
      formatting: [bold]
 
 texts/25:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None

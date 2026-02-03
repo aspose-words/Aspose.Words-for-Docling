@@ -1,0 +1,335 @@
+body:     (unspecified)
+     groups/0: (section)
+          texts/0:  (section_header) 'Main Heading (h1)'
+               texts/1:  (section_header) 'Subheading (h2)'
+                    texts/2:  (section_header) 'Section Title (h3)'
+                         groups/1: (inline)
+                              texts/3:  (text) 'This is a'
+                              texts/4:  (text) 'paragraph'
+                              texts/5:  (text) 'with a'
+                              texts/6:  (text) 'hyperlink'
+                              texts/7:  (text) '.'
+               texts/8:  (section_header) 'Lists'
+                    texts/9:  (section_header) 'Unordered List'
+                         groups/2: (list)
+                              texts/10: (list_item) 'Apple'
+                              texts/11: (list_item) 'Banana'
+                              texts/12: (list_item) 'Orange'
+                    texts/13: (section_header) 'Ordered List'
+                         groups/3: (list)
+                              texts/14: (list_item) 'Step one'
+                              texts/15: (list_item) 'Step two'
+                              texts/16: (list_item) 'Step three'
+               texts/17: (section_header) 'Table'
+                    tables/0: (table)
+               texts/18: (section_header) 'Images'
+                    texts/19: (text) 'Example placeholder image:'
+                    texts/20: (text)
+               texts/21: (section_header) 'Block Elements'
+                    texts/22: (text) 'This is a DIV block.'
+                    texts/23: (text) 'This is a SPAN inline element.'
+               texts/24: (section_header) 'Quotes'
+                    texts/25: (text) 'This is a blockquote example.'
+                    texts/26: (text) 'This is an inline quote.'
+
+
+texts/0:
+     parent: groups/0
+     label: section_header
+     level: 1
+     text: Main Heading (h1)
+     orig: Main Heading (h1)
+     formatting: None
+
+texts/1:
+     parent: texts/0
+     label: section_header
+     level: 2
+     text: Subheading (h2)
+     orig: Subheading (h2)
+     formatting: None
+
+texts/2:
+     parent: texts/1
+     label: section_header
+     level: 3
+     text: Section Title (h3)
+     orig: Section Title (h3)
+     formatting: None
+
+texts/3:
+     parent: groups/1
+     label: text
+     text: This is a
+     orig: This is a
+     formatting: []
+
+texts/4:
+     parent: groups/1
+     label: text
+     text: paragraph
+     orig: paragraph
+     formatting: [bold]
+
+texts/5:
+     parent: groups/1
+     label: text
+     text: with a
+     orig: with a
+     formatting: []
+
+texts/6:
+     parent: groups/1
+     label: text
+     text: hyperlink
+     orig: hyperlink
+     formatting: [underline]
+
+texts/7:
+     parent: groups/1
+     label: text
+     text: .
+     orig: .
+     formatting: []
+
+texts/8:
+     parent: texts/0
+     label: section_header
+     level: 2
+     text: Lists
+     orig: Lists
+     formatting: None
+
+texts/9:
+     parent: texts/8
+     label: section_header
+     level: 3
+     text: Unordered List
+     orig: Unordered List
+     formatting: None
+
+texts/10:
+     parent: groups/2
+     label: list_item
+     text: Apple
+     orig: Apple
+     formatting: []
+     enumerated: False
+     marker: -
+
+texts/11:
+     parent: groups/2
+     label: list_item
+     text: Banana
+     orig: Banana
+     formatting: []
+     enumerated: False
+     marker: -
+
+texts/12:
+     parent: groups/2
+     label: list_item
+     text: Orange
+     orig: Orange
+     formatting: []
+     enumerated: False
+     marker: -
+
+texts/13:
+     parent: texts/8
+     label: section_header
+     level: 3
+     text: Ordered List
+     orig: Ordered List
+     formatting: None
+
+texts/14:
+     parent: groups/3
+     label: list_item
+     text: Step one
+     orig: Step one
+     formatting: []
+     enumerated: True
+     marker: 1.
+
+texts/15:
+     parent: groups/3
+     label: list_item
+     text: Step two
+     orig: Step two
+     formatting: []
+     enumerated: True
+     marker: 2.
+
+texts/16:
+     parent: groups/3
+     label: list_item
+     text: Step three
+     orig: Step three
+     formatting: []
+     enumerated: True
+     marker: 3.
+
+texts/17:
+     parent: texts/0
+     label: section_header
+     level: 2
+     text: Table
+     orig: Table
+     formatting: None
+
+texts/18:
+     parent: texts/0
+     label: section_header
+     level: 2
+     text: Images
+     orig: Images
+     formatting: None
+
+texts/19:
+     parent: texts/18
+     label: text
+     text: Example placeholder image:
+     orig: Example placeholder image:
+     formatting: []
+
+texts/20:
+     parent: texts/18
+     label: text
+     text: 
+     orig: 
+     formatting: None
+
+texts/21:
+     parent: texts/0
+     label: section_header
+     level: 2
+     text: Block Elements
+     orig: Block Elements
+     formatting: None
+
+texts/22:
+     parent: texts/21
+     label: text
+     text: This is a DIV block.
+     orig: This is a DIV block.
+     formatting: []
+
+texts/23:
+     parent: texts/21
+     label: text
+     text: This is a SPAN inline element.
+     orig: This is a SPAN inline element.
+     formatting: []
+
+texts/24:
+     parent: texts/0
+     label: section_header
+     level: 2
+     text: Quotes
+     orig: Quotes
+     formatting: None
+
+texts/25:
+     parent: texts/24
+     label: text
+     text: This is a blockquote example.
+     orig: This is a blockquote example.
+     formatting: []
+
+texts/26:
+     parent: texts/24
+     label: text
+     text: This is an inline quote.
+     orig: This is an inline quote.
+     formatting: []
+
+groups/0:
+     parent: body
+     label: section
+     name: header-0
+
+groups/1:
+     parent: texts/2
+     label: inline
+     name: group
+
+groups/2:
+     parent: texts/9
+     label: list
+     name: list
+
+groups/3:
+     parent: texts/13
+     label: list
+     name: list
+
+tables/0:
+     parent: texts/17
+     cell/0:
+          row_span: 1
+          col_span: 1
+          start_row_offset_idx: 0
+          end_row_offset_idx: 1
+          start_col_offset_idx: 0
+          end_col_offset_idx: 1
+          text: Item
+          column_header: False
+          row_header: False
+          row_section: False
+     cell/1:
+          row_span: 1
+          col_span: 1
+          start_row_offset_idx: 0
+          end_row_offset_idx: 1
+          start_col_offset_idx: 1
+          end_col_offset_idx: 2
+          text: Value
+          column_header: False
+          row_header: False
+          row_section: False
+     cell/2:
+          row_span: 1
+          col_span: 1
+          start_row_offset_idx: 1
+          end_row_offset_idx: 2
+          start_col_offset_idx: 0
+          end_col_offset_idx: 1
+          text: Item A
+          column_header: False
+          row_header: False
+          row_section: False
+     cell/3:
+          row_span: 1
+          col_span: 1
+          start_row_offset_idx: 1
+          end_row_offset_idx: 2
+          start_col_offset_idx: 1
+          end_col_offset_idx: 2
+          text: 10
+          column_header: False
+          row_header: False
+          row_section: False
+     cell/4:
+          row_span: 1
+          col_span: 1
+          start_row_offset_idx: 2
+          end_row_offset_idx: 3
+          start_col_offset_idx: 0
+          end_col_offset_idx: 1
+          text: Item B
+          column_header: False
+          row_header: False
+          row_section: False
+     cell/5:
+          row_span: 1
+          col_span: 1
+          start_row_offset_idx: 2
+          end_row_offset_idx: 3
+          start_col_offset_idx: 1
+          end_col_offset_idx: 2
+          text: 20
+          column_header: False
+          row_header: False
+          row_section: False
+

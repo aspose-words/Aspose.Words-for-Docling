@@ -1,0 +1,55 @@
+body:     (unspecified)
+     groups/0: (section)
+          texts/0:  (text) 'Inline Textbox 1-1'
+          texts/1:  (text) 'Inline Textbox 1-2'
+     texts/2:  (text) 'Para1 para1'
+     groups/1: (section)
+          texts/3:  (text) 'Textbox2'
+     texts/4:  (text)
+
+
+texts/0:
+     parent: groups/0
+     label: text
+     text: Inline Textbox 1-1
+     orig: Inline Textbox 1-1
+     formatting: []
+
+texts/1:
+     parent: groups/0
+     label: text
+     text: Inline Textbox 1-2
+     orig: Inline Textbox 1-2
+     formatting: []
+
+texts/2:
+     parent: body
+     label: text
+     text: Para1 para1
+     orig: Para1 para1
+     formatting: []
+
+texts/3:
+     parent: groups/1
+     label: text
+     text: Textbox2
+     orig: Textbox2
+     formatting: [italic]
+
+texts/4:
+     parent: body
+     label: text
+     text: 
+     orig: 
+     formatting: None
+
+groups/0:
+     parent: body
+     label: section
+     name: textbox
+
+groups/1:
+     parent: body
+     label: section
+     name: textbox
+

@@ -1,0 +1,309 @@
+body:     (unspecified)
+     groups/0: (inline)
+          texts/0:  (text) 'This is a word document and this is an inline equation:'
+          texts/1:  (formula) 'A= \pi r^{2}'
+          texts/2:  (text) '. If instead, I want an equation by line, I can do this:'
+     texts/3:  (text)
+     texts/4:  (formula) 'a^{2}+b^{2}=c^{2}*23'
+     texts/5:  (text) 'And that is an equation by itself. Cheers!'
+     texts/6:  (text)
+     texts/7:  (text) 'This is another equation:'
+     texts/8:  (formula) 'f\left(x\right)=a_{0}+ \sum _{n=1}^{ \infty }\left(a_{n}\cos{\frac{n \pi x}{L}}+...'
+     texts/9:  (text)
+     texts/10: (text) 'This is text. This is text. This is text. This is text. This is text. This is te...'
+     texts/11: (text)
+     texts/12: (text)
+     groups/1: (inline)
+          texts/13: (text) 'This is a word document and this is an inline equation:'
+          texts/14: (formula) 'A= \pi r^{2}'
+          texts/15: (text) '. If instead, I want an equation by line, I can do this:'
+     texts/16: (text)
+     texts/17: (formula) '\left(x+a\right)^{n}= \sum _{k=0}^{n}\left(\genfrac{}{}{0pt}{}{n}{k}\right)x^{k}...'
+     texts/18: (text)
+     texts/19: (text) 'And that is an equation by itself. Cheers!'
+     texts/20: (text)
+     texts/21: (text) 'This is another equation:'
+     texts/22: (text)
+     texts/23: (formula) '\left(1+x\right)^{n}=1+\frac{nx}{1!}+\frac{n\left(n-1\right)x^{2}}{2!}+…'
+     texts/24: (text)
+     texts/25: (text) 'This is text. This is text. This is text. This is text. This is text. This is te...'
+     texts/26: (text)
+     texts/27: (text)
+     groups/2: (inline)
+          texts/28: (text) 'This is a word document and this is an inline equation:'
+          texts/29: (formula) 'A= \pi r^{2}'
+          texts/30: (text) '. If instead, I want an equation by line, I can do this:'
+     texts/31: (text)
+     texts/32: (formula) 'e^{x}=1+\frac{x}{1!}+\frac{x^{2}}{2!}+\frac{x^{3}}{3!}+…,  - \infty  < x < \inft...'
+     texts/33: (text)
+     texts/34: (text) 'And that is an equation by itself. Cheers!'
+     texts/35: (text)
+
+
+texts/0:
+     parent: groups/0
+     label: text
+     text: This is a word document and this is an inline equation:
+     orig: This is a word document and this is an inline equation:
+     formatting: []
+
+texts/1:
+     parent: groups/0
+     label: formula
+     text: A= \pi r^{2}
+     orig: A= \pi r^{2}
+     formatting: []
+
+texts/2:
+     parent: groups/0
+     label: text
+     text: . If instead, I want an equation by line, I can do this:
+     orig: . If instead, I want an equation by line, I can do this:
+     formatting: []
+
+texts/3:
+     parent: body
+     label: text
+     text: 
+     orig: 
+     formatting: None
+
+texts/4:
+     parent: body
+     label: formula
+     text: a^{2}+b^{2}=c^{2}*23
+     orig: a^{2}+b^{2}=c^{2}*23
+     formatting: []
+
+texts/5:
+     parent: body
+     label: text
+     text: And that is an equation by itself. Cheers!
+     orig: And that is an equation by itself. Cheers!
+     formatting: []
+
+texts/6:
+     parent: body
+     label: text
+     text: 
+     orig: 
+     formatting: None
+
+texts/7:
+     parent: body
+     label: text
+     text: This is another equation:
+     orig: This is another equation:
+     formatting: []
+
+texts/8:
+     parent: body
+     label: formula
+     text: f\left(x\right)=a_{0}+ \sum _{n=1}^{ \infty }\left(a_{n}\cos{\frac{n \pi x}{L}}+b_{n}\sin{\frac{n \pi x}{L}}\right)
+     orig: f\left(x\right)=a_{0}+ \sum _{n=1}^{ \infty }\left(a_{n}\cos{\frac{n \pi x}{L}}+b_{n}\sin{\frac{n \pi x}{L}}\right)
+     formatting: []
+
+texts/9:
+     parent: body
+     label: text
+     text: 
+     orig: 
+     formatting: None
+
+texts/10:
+     parent: body
+     label: text
+     text: This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text.
+     orig: This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text.
+     formatting: []
+
+texts/11:
+     parent: body
+     label: text
+     text: 
+     orig: 
+     formatting: None
+
+texts/12:
+     parent: body
+     label: text
+     text: 
+     orig: 
+     formatting: None
+
+texts/13:
+     parent: groups/1
+     label: text
+     text: This is a word document and this is an inline equation:
+     orig: This is a word document and this is an inline equation:
+     formatting: []
+
+texts/14:
+     parent: groups/1
+     label: formula
+     text: A= \pi r^{2}
+     orig: A= \pi r^{2}
+     formatting: []
+
+texts/15:
+     parent: groups/1
+     label: text
+     text: . If instead, I want an equation by line, I can do this:
+     orig: . If instead, I want an equation by line, I can do this:
+     formatting: []
+
+texts/16:
+     parent: body
+     label: text
+     text: 
+     orig: 
+     formatting: None
+
+texts/17:
+     parent: body
+     label: formula
+     text: \left(x+a\right)^{n}= \sum _{k=0}^{n}\left(\genfrac{}{}{0pt}{}{n}{k}\right)x^{k}a^{n-k}
+     orig: \left(x+a\right)^{n}= \sum _{k=0}^{n}\left(\genfrac{}{}{0pt}{}{n}{k}\right)x^{k}a^{n-k}
+     formatting: []
+
+texts/18:
+     parent: body
+     label: text
+     text: 
+     orig: 
+     formatting: None
+
+texts/19:
+     parent: body
+     label: text
+     text: And that is an equation by itself. Cheers!
+     orig: And that is an equation by itself. Cheers!
+     formatting: []
+
+texts/20:
+     parent: body
+     label: text
+     text: 
+     orig: 
+     formatting: None
+
+texts/21:
+     parent: body
+     label: text
+     text: This is another equation:
+     orig: This is another equation:
+     formatting: []
+
+texts/22:
+     parent: body
+     label: text
+     text: 
+     orig: 
+     formatting: None
+
+texts/23:
+     parent: body
+     label: formula
+     text: \left(1+x\right)^{n}=1+\frac{nx}{1!}+\frac{n\left(n-1\right)x^{2}}{2!}+…
+     orig: \left(1+x\right)^{n}=1+\frac{nx}{1!}+\frac{n\left(n-1\right)x^{2}}{2!}+…
+     formatting: []
+
+texts/24:
+     parent: body
+     label: text
+     text: 
+     orig: 
+     formatting: None
+
+texts/25:
+     parent: body
+     label: text
+     text: This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text.
+     orig: This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text. This is text.
+     formatting: []
+
+texts/26:
+     parent: body
+     label: text
+     text: 
+     orig: 
+     formatting: None
+
+texts/27:
+     parent: body
+     label: text
+     text: 
+     orig: 
+     formatting: None
+
+texts/28:
+     parent: groups/2
+     label: text
+     text: This is a word document and this is an inline equation:
+     orig: This is a word document and this is an inline equation:
+     formatting: []
+
+texts/29:
+     parent: groups/2
+     label: formula
+     text: A= \pi r^{2}
+     orig: A= \pi r^{2}
+     formatting: []
+
+texts/30:
+     parent: groups/2
+     label: text
+     text: . If instead, I want an equation by line, I can do this:
+     orig: . If instead, I want an equation by line, I can do this:
+     formatting: []
+
+texts/31:
+     parent: body
+     label: text
+     text: 
+     orig: 
+     formatting: None
+
+texts/32:
+     parent: body
+     label: formula
+     text: e^{x}=1+\frac{x}{1!}+\frac{x^{2}}{2!}+\frac{x^{3}}{3!}+…,  - \infty  < x < \infty
+     orig: e^{x}=1+\frac{x}{1!}+\frac{x^{2}}{2!}+\frac{x^{3}}{3!}+…,  - \infty  < x < \infty
+     formatting: []
+
+texts/33:
+     parent: body
+     label: text
+     text: 
+     orig: 
+     formatting: None
+
+texts/34:
+     parent: body
+     label: text
+     text: And that is an equation by itself. Cheers!
+     orig: And that is an equation by itself. Cheers!
+     formatting: []
+
+texts/35:
+     parent: body
+     label: text
+     text: 
+     orig: 
+     formatting: None
+
+groups/0:
+     parent: body
+     label: inline
+     name: group
+
+groups/1:
+     parent: body
+     label: inline
+     name: group
+
+groups/2:
+     parent: body
+     label: inline
+     name: group
+

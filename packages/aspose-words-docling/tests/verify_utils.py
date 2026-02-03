@@ -1,3 +1,5 @@
+# Copyright (c) 2001-2026 Aspose Pty Ltd.
+
 import os
 import pytest
 import sys
@@ -5,7 +7,7 @@ import json
 
 from pathlib import Path
 from difflib import Differ
-from typing import Any, Dict, Final, List, Literal, Optional, Sequence, Tuple, Union
+from typing import Any, List
 
 from docling_core.types.doc import (
     DoclingDocument, 
@@ -47,13 +49,13 @@ def _get_children_tree(doc: DoclingDocument, children: List[RefItem], level, out
 
 
 def _get_node_tree(doc: DoclingDocument, node: Any, level: int, out_list: List[str]):
-    max_text_len = 50
+    max_text_len = 80
     ref_len = 9
     indent = default_indent * level
     self_ref = getattr(node, "self_ref", None)       
     label = getattr(node, "label", None)       
     text = _to_single_line_text(getattr(node, "text", ""))
-    text = (text[:max_text_len] + '..') if len(text) > max_text_len else text
+    text = (text[:max_text_len] + '...') if len(text) > max_text_len else text
     text = text if len(text) == 0 else f" '{text}'"
 
     out_list.append(f"{indent}{(_strip_ref(self_ref) + ":").ljust(ref_len)} ({label}){text}\n")
@@ -205,21 +207,11 @@ def verify_documents(doc: DoclingDocument, expected_doc: DoclingDocument, test_f
         pytest.fail("Documents trees are not equal.")
 
 
-def verify(test_filename: str, compare_with_doclig: bool = True):
-    """full_test_filename = get_in_test_dir(test_filename)
-    converter = DocumentConverter()
-    docling_doc = converter.convert(full_test_filename).document
-    
-    json_filename = os.path.join(get_artifacts_dir(), Path(docling_doc.origin.filename).name + ".json")
-    docling_doc.save_as_json(json_filename)
-    doc2 = DoclingDocument.load_from_json(json_filename)
-
-    verify_documents(docling_doc, doc2, full_test_filename)"""
-
+def verify(test_filename: str, compare_with_docling: bool = True):
     aspose_converter = AsposeWordsConverter()
     full_test_filename = get_in_test_dir(test_filename)
     aspose_doc = aspose_converter.convert(full_test_filename)
-    if compare_with_doclig:
+    if compare_with_docling:
         converter = DocumentConverter()
         expected_doc = converter.convert(full_test_filename).document
     else:

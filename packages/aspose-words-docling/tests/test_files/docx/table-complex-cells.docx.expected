@@ -1,0 +1,135 @@
+body:     (unspecified)
+     tables/0: (table)
+          groups/0: (unspecified)
+               groups/1: (list)
+                    texts/0:  (list_item) 'Item1'
+                    texts/1:  (list_item) 'Item2'
+          groups/2: (unspecified)
+               texts/2:  (text) 'Para1'
+               texts/3:  (text) 'Para2'
+     texts/4:  (text)
+
+
+texts/0:
+     parent: groups/1
+     label: list_item
+     text: Item1
+     orig: Item1
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/1:
+     parent: groups/1
+     label: list_item
+     text: Item2
+     orig: Item2
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/2:
+     parent: groups/2
+     label: text
+     text: Para1
+     orig: Para1
+     formatting: []
+
+texts/3:
+     parent: groups/2
+     label: text
+     text: Para2
+     orig: Para2
+     formatting: []
+
+texts/4:
+     parent: body
+     label: text
+     text: 
+     orig: 
+     formatting: None
+
+groups/0:
+     parent: tables/0
+     label: unspecified
+     name: rich_cell_group_1_0_1
+
+groups/1:
+     parent: groups/0
+     label: list
+     name: list
+
+groups/2:
+     parent: tables/0
+     label: unspecified
+     name: rich_cell_group_1_1_1
+
+tables/0:
+     parent: body
+     cell/0:
+          row_span: 1
+          col_span: 1
+          start_row_offset_idx: 0
+          end_row_offset_idx: 1
+          start_col_offset_idx: 0
+          end_col_offset_idx: 1
+          text: Col1
+          column_header: False
+          row_header: False
+          row_section: False
+     cell/1:
+          row_span: 1
+          col_span: 1
+          start_row_offset_idx: 0
+          end_row_offset_idx: 1
+          start_col_offset_idx: 1
+          end_col_offset_idx: 2
+          text: Col2
+          column_header: False
+          row_header: False
+          row_section: False
+     cell/2:
+          row_span: 1
+          col_span: 1
+          start_row_offset_idx: 0
+          end_row_offset_idx: 1
+          start_col_offset_idx: 2
+          end_col_offset_idx: 3
+          text: Col3
+          column_header: False
+          row_header: False
+          row_section: False
+     cell/3:
+          row_span: 1
+          col_span: 1
+          start_row_offset_idx: 1
+          end_row_offset_idx: 2
+          start_col_offset_idx: 0
+          end_col_offset_idx: 1
+          text:  Item1\n Item2
+          column_header: False
+          row_header: False
+          row_section: False
+     cell/4:
+          row_span: 1
+          col_span: 1
+          start_row_offset_idx: 1
+          end_row_offset_idx: 2
+          start_col_offset_idx: 1
+          end_col_offset_idx: 2
+          text: Para1\nPara2
+          column_header: False
+          row_header: False
+          row_section: False
+     cell/5:
+          row_span: 1
+          col_span: 1
+          start_row_offset_idx: 1
+          end_row_offset_idx: 2
+          start_col_offset_idx: 2
+          end_col_offset_idx: 3
+          text: aspose.com
+          column_header: False
+          row_header: False
+          row_section: False
+

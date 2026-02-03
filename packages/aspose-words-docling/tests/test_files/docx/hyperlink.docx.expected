@@ -1,0 +1,41 @@
+body:     (unspecified)
+     texts/0:  (text) 'First paragraph.'
+     groups/0: (inline)
+          texts/1:  (text) 'This is a'
+          texts/2:  (text) 'link'
+          texts/3:  (text) 'to Google.'
+
+
+texts/0:
+     parent: body
+     label: text
+     text: First paragraph.
+     orig: First paragraph.
+     formatting: []
+
+texts/1:
+     parent: groups/0
+     label: text
+     text: This is a
+     orig: This is a
+     formatting: []
+
+texts/2:
+     parent: groups/0
+     label: text
+     text: link
+     orig: link
+     formatting: [underline]
+
+texts/3:
+     parent: groups/0
+     label: text
+     text: to Google.
+     orig: to Google.
+     formatting: []
+
+groups/0:
+     parent: body
+     label: inline
+     name: group
+

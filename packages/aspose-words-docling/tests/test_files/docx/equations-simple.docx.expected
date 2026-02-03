@@ -1,36 +1,36 @@
 body:     (unspecified)
      groups/0: (inline)
-          texts/0:  (paragraph) 'This is a word document and this is an inline equa..'
-          texts/1:  (formula) 'A=πr2 '
-          texts/2:  (paragraph) '. If instead, I want an equation by line, I can do..'
-     texts/3:  (paragraph)
-     texts/4:  (formula) 'a2+b2=c2 × 23'
+          texts/0:  (text) 'This is a word document and this is an inline equation:'
+          texts/1:  (formula) 'A= \pi r^{2}'
+          texts/2:  (text) '. If instead, I want an equation by line, I can do this:'
+     texts/3:  (text)
+     texts/4:  (formula) 'a^{2}+b^{2}=c^{2}  \text{ \texttimes }  23'
 
 
 texts/0:
      parent: groups/0
-     label: paragraph
-     text: This is a word document and this is an inline equation: 
-     orig: This is a word document and this is an inline equation: 
+     label: text
+     text: This is a word document and this is an inline equation:
+     orig: This is a word document and this is an inline equation:
      formatting: []
 
 texts/1:
      parent: groups/0
      label: formula
-     text: A=πr2 
-     orig: A=πr2 
-     formatting: None
+     text: A= \pi r^{2}
+     orig: A= \pi r^{2}
+     formatting: []
 
 texts/2:
      parent: groups/0
-     label: paragraph
+     label: text
      text: . If instead, I want an equation by line, I can do this:
      orig: . If instead, I want an equation by line, I can do this:
      formatting: []
 
 texts/3:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
@@ -38,9 +38,9 @@ texts/3:
 texts/4:
      parent: body
      label: formula
-     text: a2+b2=c2 × 23
-     orig: a2+b2=c2 × 23
-     formatting: None
+     text: a^{2}+b^{2}=c^{2}  \text{ \texttimes }  23
+     orig: a^{2}+b^{2}=c^{2}  \text{ \texttimes }  23
+     formatting: []
 
 groups/0:
      parent: body

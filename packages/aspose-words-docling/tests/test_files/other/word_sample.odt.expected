@@ -5,29 +5,29 @@ body:     (unspecified)
           pictures/0: (picture)
           texts/3:  (text)
           texts/4:  (text) 'Figure 1: This is a cute duckling'
-          texts/5:  (section_header) 'Let’s swim!'
-               texts/6:  (text) 'To get started with swimming, first lay down in a water and try not to drown:'
-               groups/0: (list)
-                    texts/7:  (list_item) 'You can relax and look around'
-                    texts/8:  (list_item) 'Paddle about'
-                    texts/9:  (list_item) 'Enjoy summer warmth'
-               texts/10: (text) 'Also, don’t forget:'
-               groups/1: (list)
-                    texts/11: (list_item) 'Wear sunglasses'
-                    texts/12: (list_item) 'Don’t forget to drink water'
-                    texts/13: (list_item) 'Use sun cream'
-               texts/14: (text) 'Hmm, what else…'
-               texts/15: (section_header) 'Let’s eat'
-                    texts/16: (text) 'After we had a good day of swimming in the lake, it’s important to eat something...'
-                    texts/17: (text) 'I like to eat leaves'
-                    texts/18: (text) 'Here are some interesting things a respectful duck could eat:'
-                    tables/0: (table)
-                    texts/19: (text)
-                    texts/20: (text) 'And let’s add another list in the end:'
-                    groups/2: (list)
-                         texts/21: (list_item) 'Leaves'
-                         texts/22: (list_item) 'Berries'
-                         texts/23: (list_item) 'Grain'
+          texts/5:  (text) 'Let’s swim!'
+          texts/6:  (text) 'To get started with swimming, first lay down in a water and try not to drown:'
+          groups/0: (list)
+               texts/7:  (list_item) 'You can relax and look around'
+               texts/8:  (list_item) 'Paddle about'
+               texts/9:  (list_item) 'Enjoy summer warmth'
+          texts/10: (text) 'Also, don’t forget:'
+          groups/1: (list)
+               texts/11: (list_item) 'Wear sunglasses'
+               texts/12: (list_item) 'Don’t forget to drink water'
+               texts/13: (list_item) 'Use sun cream'
+          texts/14: (text) 'Hmm, what else…'
+          texts/15: (text) 'Let’s eat'
+          texts/16: (text) 'After we had a good day of swimming in the lake, it’s important to eat something...'
+          texts/17: (text) 'I like to eat leaves'
+          texts/18: (text) 'Here are some interesting things a respectful duck could eat:'
+          tables/0: (table)
+          texts/19: (text)
+          texts/20: (text) 'And let’s add another list in the end:'
+          groups/2: (list)
+               texts/21: (list_item) 'Leaves'
+               texts/22: (list_item) 'Berries'
+               texts/23: (list_item) 'Grain'
 
 
 texts/0:
@@ -67,14 +67,13 @@ texts/4:
 
 texts/5:
      parent: texts/1
-     label: section_header
-     level: 1
+     label: text
      text: Let’s swim!
      orig: Let’s swim!
-     formatting: None
+     formatting: []
 
 texts/6:
-     parent: texts/5
+     parent: texts/1
      label: text
      text: To get started with swimming, first lay down in a water and try not to drown:
      orig: To get started with swimming, first lay down in a water and try not to drown:
@@ -108,7 +107,7 @@ texts/9:
      marker: 
 
 texts/10:
-     parent: texts/5
+     parent: texts/1
      label: text
      text: Also, don’t forget:
      orig: Also, don’t forget:
@@ -142,50 +141,49 @@ texts/13:
      marker: 3.
 
 texts/14:
-     parent: texts/5
+     parent: texts/1
      label: text
      text: Hmm, what else…
      orig: Hmm, what else…
      formatting: []
 
 texts/15:
-     parent: texts/5
-     label: section_header
-     level: 2
+     parent: texts/1
+     label: text
      text: Let’s eat
      orig: Let’s eat
-     formatting: None
+     formatting: []
 
 texts/16:
-     parent: texts/15
+     parent: texts/1
      label: text
      text: After we had a good day of swimming in the lake, it’s important to eat something nice
      orig: After we had a good day of swimming in the lake, it’s important to eat something nice
      formatting: []
 
 texts/17:
-     parent: texts/15
+     parent: texts/1
      label: text
      text: I like to eat leaves
      orig: I like to eat leaves
      formatting: [italic]
 
 texts/18:
-     parent: texts/15
+     parent: texts/1
      label: text
      text: Here are some interesting things a respectful duck could eat:
      orig: Here are some interesting things a respectful duck could eat:
      formatting: []
 
 texts/19:
-     parent: texts/15
+     parent: texts/1
      label: text
      text: 
      orig: 
      formatting: None
 
 texts/20:
-     parent: texts/15
+     parent: texts/1
      label: text
      text: And let’s add another list in the end:
      orig: And let’s add another list in the end:
@@ -219,22 +217,22 @@ texts/23:
      marker: 3.
 
 groups/0:
-     parent: texts/5
+     parent: texts/1
      label: list
      name: list
 
 groups/1:
-     parent: texts/5
+     parent: texts/1
      label: list
      name: list
 
 groups/2:
-     parent: texts/15
+     parent: texts/1
      label: list
      name: list
 
 tables/0:
-     parent: texts/15
+     parent: texts/1
      cell/0:
           row_span: 1
           col_span: 1

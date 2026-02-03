@@ -1,0 +1,367 @@
+body:     (unspecified)
+     texts/0:  (text) 'Main Heading (h1)'
+     texts/1:  (text) 'Subheading (h2)'
+     texts/2:  (text) 'Section Title (h3)'
+     groups/0: (inline)
+          texts/3:  (text) 'This is a'
+          texts/4:  (text) 'paragraph'
+          texts/5:  (text) 'with a'
+          texts/6:  (text) 'hyperlink'
+          texts/7:  (text) '.'
+     pictures/0: (picture)
+     texts/8:  (text) 'Lists'
+     texts/9:  (text) 'Unordered List'
+     groups/1: (list)
+          texts/10: (list_item) 'Apple'
+          texts/11: (list_item) 'Banana'
+          texts/12: (list_item) 'Orange'
+     texts/13: (text) 'Ordered List'
+     groups/2: (list)
+          texts/14: (list_item) 'Step one'
+          texts/15: (list_item) 'Step two'
+          texts/16: (list_item) 'Step three'
+     pictures/1: (picture)
+     texts/17: (text) 'Table'
+     pictures/2: (picture)
+     texts/18: (text)
+     tables/0: (table)
+     texts/19: (text) 'Images'
+     texts/20: (text) 'Example placeholder image:'
+     pictures/3: (picture)
+     texts/21: (text)
+     texts/22: (text) 'Block Elements'
+     pictures/4: (picture)
+     pictures/5: (picture)
+     texts/23: (text) 'This is a DIV block.'
+     pictures/6: (picture)
+     texts/24: (text) 'This is a SPAN inline element.'
+     pictures/7: (picture)
+     texts/25: (text) 'Quotes'
+     texts/26: (text) 'This is a blockquote example. This is an inline quote.'
+
+
+texts/0:
+     parent: body
+     label: text
+     text: Main Heading (h1)
+     orig: Main Heading (h1)
+     formatting: [bold]
+
+texts/1:
+     parent: body
+     label: text
+     text: Subheading (h2)
+     orig: Subheading (h2)
+     formatting: [bold]
+
+texts/2:
+     parent: body
+     label: text
+     text: Section Title (h3)
+     orig: Section Title (h3)
+     formatting: [bold]
+
+texts/3:
+     parent: groups/0
+     label: text
+     text: This is a
+     orig: This is a
+     formatting: []
+
+texts/4:
+     parent: groups/0
+     label: text
+     text: paragraph
+     orig: paragraph
+     formatting: [bold]
+
+texts/5:
+     parent: groups/0
+     label: text
+     text: with a
+     orig: with a
+     formatting: []
+
+texts/6:
+     parent: groups/0
+     label: text
+     text: hyperlink
+     orig: hyperlink
+     formatting: [underline]
+
+texts/7:
+     parent: groups/0
+     label: text
+     text: .
+     orig: .
+     formatting: []
+
+texts/8:
+     parent: body
+     label: text
+     text: Lists
+     orig: Lists
+     formatting: [bold]
+
+texts/9:
+     parent: body
+     label: text
+     text: Unordered List
+     orig: Unordered List
+     formatting: [bold]
+
+texts/10:
+     parent: groups/1
+     label: list_item
+     text: Apple
+     orig: Apple
+     formatting: []
+     enumerated: False
+     marker: •
+
+texts/11:
+     parent: groups/1
+     label: list_item
+     text: Banana
+     orig: Banana
+     formatting: []
+     enumerated: False
+     marker: •
+
+texts/12:
+     parent: groups/1
+     label: list_item
+     text: Orange
+     orig: Orange
+     formatting: []
+     enumerated: False
+     marker: •
+
+texts/13:
+     parent: body
+     label: text
+     text: Ordered List
+     orig: Ordered List
+     formatting: [bold]
+
+texts/14:
+     parent: groups/2
+     label: list_item
+     text: Step one
+     orig: Step one
+     formatting: []
+     enumerated: True
+     marker: 1.
+
+texts/15:
+     parent: groups/2
+     label: list_item
+     text: Step two
+     orig: Step two
+     formatting: []
+     enumerated: True
+     marker: 2.
+
+texts/16:
+     parent: groups/2
+     label: list_item
+     text: Step three
+     orig: Step three
+     formatting: []
+     enumerated: True
+     marker: 3.
+
+texts/17:
+     parent: body
+     label: text
+     text: Table
+     orig: Table
+     formatting: [bold]
+
+texts/18:
+     parent: body
+     label: text
+     text: 
+     orig: 
+     formatting: None
+
+texts/19:
+     parent: body
+     label: text
+     text: Images
+     orig: Images
+     formatting: [bold]
+
+texts/20:
+     parent: body
+     label: text
+     text: Example placeholder image:
+     orig: Example placeholder image:
+     formatting: []
+
+texts/21:
+     parent: body
+     label: text
+     text: 
+     orig: 
+     formatting: None
+
+texts/22:
+     parent: body
+     label: text
+     text: Block Elements
+     orig: Block Elements
+     formatting: [bold]
+
+texts/23:
+     parent: body
+     label: text
+     text: This is a DIV block.
+     orig: This is a DIV block.
+     formatting: []
+
+texts/24:
+     parent: body
+     label: text
+     text: This is a SPAN inline element.
+     orig: This is a SPAN inline element.
+     formatting: []
+
+texts/25:
+     parent: body
+     label: text
+     text: Quotes
+     orig: Quotes
+     formatting: [bold]
+
+texts/26:
+     parent: body
+     label: text
+     text: This is a blockquote example. This is an inline quote.
+     orig: This is a blockquote example. This is an inline quote.
+     formatting: []
+
+groups/0:
+     parent: body
+     label: inline
+     name: group
+
+groups/1:
+     parent: body
+     label: list
+     name: list
+
+groups/2:
+     parent: body
+     label: list
+     name: list
+
+tables/0:
+     parent: body
+     cell/0:
+          row_span: 1
+          col_span: 1
+          start_row_offset_idx: 0
+          end_row_offset_idx: 1
+          start_col_offset_idx: 0
+          end_col_offset_idx: 1
+          text: Item
+          column_header: False
+          row_header: False
+          row_section: False
+     cell/1:
+          row_span: 1
+          col_span: 1
+          start_row_offset_idx: 0
+          end_row_offset_idx: 1
+          start_col_offset_idx: 1
+          end_col_offset_idx: 2
+          text: Value
+          column_header: False
+          row_header: False
+          row_section: False
+     cell/2:
+          row_span: 1
+          col_span: 1
+          start_row_offset_idx: 1
+          end_row_offset_idx: 2
+          start_col_offset_idx: 0
+          end_col_offset_idx: 1
+          text: Item A
+          column_header: False
+          row_header: False
+          row_section: False
+     cell/3:
+          row_span: 1
+          col_span: 1
+          start_row_offset_idx: 1
+          end_row_offset_idx: 2
+          start_col_offset_idx: 1
+          end_col_offset_idx: 2
+          text: 10
+          column_header: False
+          row_header: False
+          row_section: False
+     cell/4:
+          row_span: 1
+          col_span: 1
+          start_row_offset_idx: 2
+          end_row_offset_idx: 3
+          start_col_offset_idx: 0
+          end_col_offset_idx: 1
+          text: Item B
+          column_header: False
+          row_header: False
+          row_section: False
+     cell/5:
+          row_span: 1
+          col_span: 1
+          start_row_offset_idx: 2
+          end_row_offset_idx: 3
+          start_col_offset_idx: 1
+          end_col_offset_idx: 2
+          text: 20
+          column_header: False
+          row_header: False
+          row_section: False
+
+pictures/0:
+     parent: body
+     label: picture
+     data: iVBORw0KGgoAAAANSUhEUgAABuAAAAAQCAYAAADnCrm7AAAAvUlEQVR4nO3bMQ6AIAwFUDQczKP1ZnI0V2MYGCom+N5GU9LuPy0FAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAUduzEBHH8G8AAAAAAAD4uYho93ft9Jzz1gEAAAAAAIC1jt727/YAAAAAAACA9QjgAAAAAAAAIJEADgAAAAAAABIJ4AAAAAAAACBR7dRa5gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoLzrAr9KBZLbHvNRAAAAAElFTkSuQmCC
+
+pictures/1:
+     parent: body
+     label: picture
+     data: iVBORw0KGgoAAAANSUhEUgAABuAAAAAQCAYAAADnCrm7AAAAt0lEQVR4nO3ZMQ6AMAhAUTS9t3hzZ5sOHVCjvjeSkrL/CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGYt/SAzc3obAAAAAAAAfi67vtYGb7b7zgEAAAAAAIDXOwW49bk7AAAAAAAA4HsEOAAAAAAAACgkwAEAAAAAAEAhAQ4AAAAAAAAKtcFsr/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIhrHdv6BZLoZnYOAAAAAElFTkSuQmCC
+
+pictures/2:
+     parent: body
+     label: picture
+     data: iVBORw0KGgoAAAANSUhEUgAABuAAAAAUCAYAAAB8m/utAAAA1UlEQVR4nO3bQQqAQAgFUIsO1tG8WXO0Ni1iMIJwE7y3UxQP8DECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4LDHJzH3uAQAAAAAAALXMHPd6K2aOh10AAAAAAADg5eltLQYAAAAAAACAjwRwAAAAAAAA0EgABwAAAAAAAI0EcAAAAAAAANBoK3qj8wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMRvnE9lBZLXdmphAAAAAElFTkSuQmCC
+
+pictures/3:
+     parent: body
+     label: picture
+     data: iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAAiklEQVR4nO2WUQqAIBBEXfHe6s30ZBN9GEm4aiok7cMPYWEejCUSALUSvTRdieAXAsPMvPeNKdba4gxlnHOoEULgQ/Y/A/0ZAdG5nvtpAiCLbr4ieypCCu25gHsEdKtovoBSM1dX439yBm61rKroFfsLDD+OMQ4KiHlVUPOnwoXIs6WGCKqIQNU4AGade+lmDHTXAAAAAElFTkSuQmCC
+
+pictures/4:
+     parent: body
+     label: picture
+     data: iVBORw0KGgoAAAANSUhEUgAABuAAAAAUCAYAAAB8m/utAAAA1ElEQVR4nO3ZsQ2AMAwEQIMyGNnMm7EaDQWKgkLhBumus/WWB/gIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgtsUgM89xBwAAAAAAAMxlZn/ObZI5Xm4BAAAAAACAhX0VAAAAAAAAAL5TwAEAAAAAAEAhBRwAAAAAAAAUUsABAAAAAABAoTbZ9coHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQv3EBe98Ek2RsUy0AAAAASUVORK5CYII=
+
+pictures/5:
+     parent: body
+     label: picture
+     data: iVBORw0KGgoAAAANSUhEUgAABuAAAAAUCAYAAAB8m/utAAAA0UlEQVR4nO3ZMQ6AIBBFQTTc2/Xm1BLKjWR1ptyQ8PvXGgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQ2zEfIiL2TAEAAAAAAIB65r7WF2+u9+YAAAAAAABAeY8Ad+7bAQAAAAAAAN8jwAEAAAAAAEAiAQ4AAAAAAAASCXAAAAAAAACQqC9ud+YHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtD8ajh0FkrfFeMYAAAAASUVORK5CYII=
+
+pictures/6:
+     parent: body
+     label: picture
+     data: iVBORw0KGgoAAAANSUhEUgAABvAAAACACAYAAADdwi4QAAAFQElEQVR4nO3cwW1UMRRAUTuEFaIHaiDQyvRGC78WoIUUgdjBGA1CwILMHwmCLsM5Ky+eLO+v/MYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAy8y9gW3b7uaczy+8DwAAAAAAAHjAWuvD4XB4N864HfverLXuLpgDAAAAAAAAzns7xnh9buBm5wIAAAAAAADgL7rkB979Wuvrqs0558cxxufHfxYAAAAAAABcjSdrrWenw5zz/k8EvBdzzpffzq/2dnICAAAAAAAAP2zbdjfnPK3OPDmOHVZoAgAAAAAAQIiABwAAAAAAACECHgAAAAAAAIQIeAAAAAAAABAi4AEAAAAAAECIgAcAAAAAAAAhAh4AAAAAAACECHgAAAAAAAAQIuABAAAAAABAiIAHAAAAAAAAIQIeAAAAAAAAhAh4AAAAAAAAECLgAQAAAAAAQIiABwAAAAAAACECHgAAAAAAAIQIeAAAAAAAABAi4AEAAAAAAECIgAcAAAAAAAAhAh4AAAAAAACECHgAAAAAAAAQIuABAAAAAABAiIAHAAAAAAAAIQIeAAAAAAAAhAh4AAAAAAAAECLgAQAAAAAAQIiABwAAAAAAACECHgAAAAAAAIQIeAAAAAAAABAi4AEAAAAAAECIgAcAAAAAAAAhAh4AAAAAAACECHgAAAAAAAAQIuABAAAAAABAiIAHAAAAAAAAIQIeAAAAAAAAhAh4AAAAAAAAECLgAQAAAAAAQIiABwAAAAAAACECHgAAAAAAAIQIeAAAAAAAABAi4AEAAAAAAECIgAcAAAAAAAAhAh4AAAAAAACECHgAAAAAAAAQIuABAAAAAABAiIAHAAAAAAAAIQIeAAAAAAAAhAh4AAAAAAAAECLgAQAAAAAAQIiABwAAAAAAACECHgAAAAAAAIQIeAAAAAAAABAi4AEAAAAAAECIgAcAAAAAAAAhAh4AAAAAAACECHgAAAAAAAAQIuABAAAAAABAiIAHAAAAAAAAIQIeAAAAAAAAhAh4AAAAAAAAECLgAQAAAAAAQIiABwAAAAAAACECHgAAAAAAAIQIeAAAAAAAABAi4AEAAAAAAECIgAcAAAAAAAAhAh4AAAAAAACECHgAAAAAAAAQIuABAAAAAABAiIAHAAAAAAAAIQIeAAAAAAAAhAh4AAAAAAAAECLgAQAAAAAAQIiABwAAAAAAACECHgAAAAAAAIQIeAAAAAAAABAi4AEAAAAAAECIgAcAAAAAAAAhAh4AAAAAAACECHgAAAAAAAAQIuABAAAAAABAiIAHAAAAAAAAIQIeAAAAAAAAhAh4AAAAAAAAECLgAQAAAAAAQIiABwAAAAAAACECHgAAAAAAAIQIeAAAAAAAABAi4AEAAAAAAECIgAcAAAAAAAAhAh4AAAAAAACECHgAAAAAAAAQIuABAAAAAABAiIAHAAAAAAAAIQIeAAAAAAAAhAh4AAAAAAAAECLgAQAAAAAAQIiABwAAAAAAACECHgAAAAAAAIQIeAAAAAAAABAi4AEAAAAAAECIgAcAAAAAAAAhAh4AAAAAAACECHgAAAAAAAAQIuABAAAAAABAiIAHAAAAAAAAIQIeAAAAAAAAhAh4AAAAAAAAECLgAQAAAAAAwL8U8NZan74P39wcH/1FAAAAAAAAcEWOx+P6VXt7yO3ewJzz6U+Xv9+27TefCAAAAAAAAP+nOedun7NCEwAAAAAAAEIEPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYFyHL+iFMJfHR7QLAAAAAElFTkSuQmCC
+
+pictures/7:
+     parent: body
+     label: picture
+     data: iVBORw0KGgoAAAANSUhEUgAABuAAAAAUCAYAAAB8m/utAAAA1UlEQVR4nO3ZsQnAMAwEQCd4sHgzbebV0obgUsTYueskBPr+SwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1na8FxHR50QBAAAAAACA9UREe851cHN9FwcAAAAAAAD2cs4OAAAAAAAAADtRwAEAAAAAAEAiBRwAAAAAAAAkUsABAAAAAABAojrYtcwHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlD+6ATbTBJPrksM7AAAAAElFTkSuQmCC
+

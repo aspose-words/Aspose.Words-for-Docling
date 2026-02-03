@@ -1,10 +1,9 @@
-# SPDX-FileCopyrightText: 2025-Aspose Pty Ltd
+# SPDX-FileCopyrightText: 2026-Aspose Pty Ltd
 # SPDX-License-Identifier: MIT
 
 from .aspose_words_converter import (
-    AsposeWordsConverter
+    AsposeWordsConverter, LicenseManager
 )
-from .license_manager import LicenseManager
 
 from .__about__ import __version__
 

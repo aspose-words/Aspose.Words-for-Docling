@@ -1,0 +1,48 @@
+body:     (unspecified)
+     tables/0: (table)
+     texts/0:  (text)
+
+
+texts/0:
+     parent: body
+     label: text
+     text: 
+     orig: 
+     formatting: None
+
+tables/0:
+     parent: body
+     cell/0:
+          row_span: 2
+          col_span: 1
+          start_row_offset_idx: 0
+          end_row_offset_idx: 2
+          start_col_offset_idx: 0
+          end_col_offset_idx: 1
+          text: Merged1
+          column_header: False
+          row_header: False
+          row_section: False
+     cell/1:
+          row_span: 1
+          col_span: 1
+          start_row_offset_idx: 0
+          end_row_offset_idx: 1
+          start_col_offset_idx: 1
+          end_col_offset_idx: 2
+          text: Merged2
+          column_header: False
+          row_header: False
+          row_section: False
+     cell/2:
+          row_span: 1
+          col_span: 1
+          start_row_offset_idx: 1
+          end_row_offset_idx: 2
+          start_col_offset_idx: 1
+          end_col_offset_idx: 2
+          text: Merged3
+          column_header: False
+          row_header: False
+          row_section: False
+

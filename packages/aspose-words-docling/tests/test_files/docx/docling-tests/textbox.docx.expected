@@ -1,135 +1,135 @@
 body:     (unspecified)
-     texts/0:  (paragraph) 'Chiayi County Shuishang Township Nanjing Elementar..'
-     texts/1:  (paragraph) 'Infectious Disease Reporting Procedure for the 113..'
-     texts/2:  (paragraph)
+     texts/0:  (text) 'Chiayi County Shuishang Township Nanjing Elementary School Affiliated Kindergart...'
+     texts/1:  (text) 'Infectious Disease Reporting Procedure for the 113th Academic Year Kindergarten'
+     texts/2:  (text)
      groups/0: (section)
-          texts/3:  (paragraph) 'Student falls ill'
-          texts/4:  (paragraph)
+          texts/3:  (text) 'Student falls ill'
+          texts/4:  (text)
      groups/1: (section)
           groups/2: (list)
                texts/5:  (list_item)
                     groups/3: (inline)
-                         texts/6:  (paragraph) 'Suggested Reportable Symptoms:'
-                         texts/7:  (paragraph) '＊ Fever\n＊ Cough\n＊ Diarrhea\n＊ Vomiting\n＊ Rash\n..'
-     texts/8:  (paragraph)
-     texts/9:  (paragraph)
-     texts/10: (paragraph)
+                         texts/6:  (text) 'Suggested Reportable Symptoms:'
+                         texts/7:  (text) '＊ Fever\n＊ Cough\n＊ Diarrhea\n＊ Vomiting\n＊ Rash\n＊ Blisters\n＊ Headache\n＊ Sore...'
+     texts/8:  (text)
+     texts/9:  (text)
+     texts/10: (text)
      groups/4: (section)
-          texts/11: (paragraph) 'If a caregiver suspects that within one week, a fi..'
-     texts/12: (paragraph)
-     texts/13: (paragraph)
-     texts/14: (paragraph)
-     texts/15: (paragraph)
+          texts/11: (text) 'If a caregiver suspects that within one week, a fifth of the class (for classes ...'
+     texts/12: (text)
+     texts/13: (text)
+     texts/14: (text)
+     texts/15: (text)
      groups/5: (section)
-          texts/16: (paragraph) 'Yes'
-     texts/17: (paragraph)
-     texts/18: (paragraph)
+          texts/16: (text) 'Yes'
+     texts/17: (text)
+     texts/18: (text)
      groups/6: (section)
           groups/7: (list)
-               texts/19: (list_item) 'A report must be submitted within 24 hours via the..'
-               texts/20: (list_item) 'A report must also be submitted within 48 hours th..'
-          texts/21: (paragraph)
-     texts/22: (paragraph)
-     texts/23: (paragraph)
-     texts/24: (paragraph)
-     texts/25: (paragraph)
-     texts/26: (paragraph)
-     texts/27: (paragraph)
+               texts/19: (list_item) 'A report must be submitted within 24 hours via the Ministry of Education’s Campu...'
+               texts/20: (list_item) 'A report must also be submitted within 48 hours through Chiayi County’s School S...'
+          texts/21: (text)
+     texts/22: (text)
+     texts/23: (text)
+     texts/24: (text)
+     texts/25: (text)
+     texts/26: (text)
+     texts/27: (text)
      groups/8: (section)
-          texts/28: (paragraph) 'Health Bureau:'
-          texts/29: (paragraph) 'Upon receiving a report from the kindergarten, con..'
+          texts/28: (text) 'Health Bureau:'
+          texts/29: (text) 'Upon receiving a report from the kindergarten, conduct a preliminary assessment ...'
           groups/9: (list)
-               texts/30: (list_item) 'If necessary, provide health education and importa..'
-               texts/31: (list_item) 'Implement appropriate epidemic prevention measures..'
-          texts/32: (paragraph)
-     texts/33: (paragraph)
-     texts/34: (paragraph)
+               texts/30: (list_item) 'If necessary, provide health education and important reminders at the kindergart...'
+               texts/31: (list_item) 'Implement appropriate epidemic prevention measures in accordance with the Commun...'
+          texts/32: (text)
+     texts/33: (text)
+     texts/34: (text)
      groups/10: (section)
           groups/11: (inline)
-               texts/35: (paragraph) 'Department of Education:'
-               texts/36: (paragraph) 'Collaborate with the Health Bureau in conducting e..'
-     texts/37: (paragraph)
-     texts/38: (paragraph)
-     texts/39: (paragraph)
-     texts/40: (paragraph)
-     texts/41: (paragraph)
-     texts/42: (paragraph)
-     texts/43: (paragraph)
+               texts/35: (text) 'Department of Education:'
+               texts/36: (text) 'Collaborate with the Health Bureau in conducting epidemiological investigations ...'
+     texts/37: (text)
+     texts/38: (text)
+     texts/39: (text)
+     texts/40: (text)
+     texts/41: (text)
+     texts/42: (text)
+     texts/43: (text)
      groups/12: (section)
           groups/13: (inline)
-               texts/44: (paragraph) 'The Health Bureau will handle'
-               texts/45: (paragraph) 'reporting and specimen collection'
-               texts/46: (paragraph) '.'
-          texts/47: (paragraph)
-     texts/48: (paragraph)
-     texts/49: (paragraph)
-     texts/50: (paragraph)
+               texts/44: (text) 'The Health Bureau will handle'
+               texts/45: (text) 'reporting and specimen collection'
+               texts/46: (text) '.'
+          texts/47: (text)
+     texts/48: (text)
+     texts/49: (text)
+     texts/50: (text)
      groups/14: (section)
-          texts/51: (paragraph) 'Whether the epidemic has eased.'
-          texts/52: (paragraph)
-     texts/53: (paragraph)
+          texts/51: (text) 'Whether the epidemic has eased.'
+          texts/52: (text)
+     texts/53: (text)
      groups/15: (section)
-          texts/54: (paragraph) 'Whether the test results are positive for a legall..'
+          texts/54: (text) 'Whether the test results are positive for a legally designated infectious diseas...'
      groups/16: (section)
-          texts/55: (paragraph) 'No'
-     texts/56: (paragraph)
-     texts/57: (paragraph)
+          texts/55: (text) 'No'
+     texts/56: (text)
+     texts/57: (text)
      groups/17: (section)
-          texts/58: (paragraph) 'Yes'
-     texts/59: (paragraph)
+          texts/58: (text) 'Yes'
+     texts/59: (text)
      groups/18: (section)
-          texts/60: (paragraph) 'Yes'
-     texts/61: (paragraph)
-     texts/62: (paragraph)
+          texts/60: (text) 'Yes'
+     texts/61: (text)
+     texts/62: (text)
      groups/19: (section)
-          texts/63: (paragraph) 'Case closed.'
-          texts/64: (paragraph)
+          texts/63: (text) 'Case closed.'
+          texts/64: (text)
      groups/20: (section)
           groups/21: (inline)
-               texts/65: (paragraph) 'The'
-               texts/66: (paragraph) 'Health Bureau'
-               texts/67: (paragraph) 'will carry out subsequent related epidemic prevent..'
-               texts/68: (paragraph) 'Centers for Disease Control'
-               texts/69: (paragraph) 'if necessary.'
-     texts/70: (paragraph)
+               texts/65: (text) 'The'
+               texts/66: (text) 'Health Bureau'
+               texts/67: (text) 'will carry out subsequent related epidemic prevention measures and follow-up, an...'
+               texts/68: (text) 'Centers for Disease Control'
+               texts/69: (text) 'if necessary.'
+     texts/70: (text)
      groups/22: (section)
-          texts/71: (paragraph) 'No'
-     texts/72: (paragraph)
-     texts/73: (paragraph)
-     texts/74: (paragraph)
+          texts/71: (text) 'No'
+     texts/72: (text)
+     texts/73: (text)
+     texts/74: (text)
 
 
 texts/0:
      parent: body
-     label: paragraph
+     label: text
      text: Chiayi County Shuishang Township Nanjing Elementary School Affiliated Kindergarten
      orig: Chiayi County Shuishang Township Nanjing Elementary School Affiliated Kindergarten
      formatting: [bold]
 
 texts/1:
      parent: body
-     label: paragraph
+     label: text
      text: Infectious Disease Reporting Procedure for the 113th Academic Year Kindergarten
      orig: Infectious Disease Reporting Procedure for the 113th Academic Year Kindergarten
      formatting: [bold]
 
 texts/2:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/3:
      parent: groups/0
-     label: paragraph
+     label: text
      text: Student falls ill
      orig: Student falls ill
      formatting: [bold]
 
 texts/4:
      parent: groups/0
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
@@ -141,18 +141,18 @@ texts/5:
      orig: 
      formatting: None
      enumerated: False
-     marker: 
+     marker: ＊
 
 texts/6:
      parent: groups/3
-     label: paragraph
+     label: text
      text: Suggested Reportable Symptoms:
      orig: Suggested Reportable Symptoms:
      formatting: [bold]
 
 texts/7:
      parent: groups/3
-     label: paragraph
+     label: text
      text: ＊ Fever\n＊ Cough\n＊ Diarrhea\n＊ Vomiting\n＊ Rash\n＊ Blisters\n＊ Headache\n＊ Sore throat
      orig: ＊ Fever
 ＊ Cough
@@ -166,28 +166,28 @@ texts/7:
 
 texts/8:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/9:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/10:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/11:
      parent: groups/4
-     label: paragraph
+     label: text
      text: If a caregiver suspects that within one week, a fifth of the class (for classes with more than 15 students) or more than three students (for classes with 15 or fewer students)\nshow the same suggested reportable symptoms
      orig: If a caregiver suspects that within one week, a fifth of the class (for classes with more than 15 students) or more than three students (for classes with 15 or fewer students)
 show the same suggested reportable symptoms
@@ -195,49 +195,49 @@ show the same suggested reportable symptoms
 
 texts/12:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/13:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/14:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/15:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/16:
      parent: groups/5
-     label: paragraph
+     label: text
      text: Yes
      orig: Yes
      formatting: []
 
 texts/17:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/18:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
@@ -249,7 +249,7 @@ texts/19:
      orig: A report must be submitted within 24 hours via the Ministry of Education’s Campus Safety and Disaster Prevention Information Network.
      formatting: []
      enumerated: False
-     marker: 
+     marker: -
 
 texts/20:
      parent: groups/7
@@ -258,67 +258,67 @@ texts/20:
      orig: A report must also be submitted within 48 hours through Chiayi County’s School Suspected Infectious Disease Reporting System.
      formatting: []
      enumerated: False
-     marker: 
+     marker: -
 
 texts/21:
      parent: groups/6
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/22:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/23:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/24:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/25:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/26:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/27:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/28:
      parent: groups/8
-     label: paragraph
+     label: text
      text: Health Bureau:
      orig: Health Bureau:
      formatting: [bold]
 
 texts/29:
      parent: groups/8
-     label: paragraph
+     label: text
      text: Upon receiving a report from the kindergarten, conduct a preliminary assessment of the case, and depending on the situation and type of illness, carry out an epidemiological investigation and report to the Centers for Disease Control.
      orig: Upon receiving a report from the kindergarten, conduct a preliminary assessment of the case, and depending on the situation and type of illness, carry out an epidemiological investigation and report to the Centers for Disease Control.
      formatting: []
@@ -343,301 +343,301 @@ texts/31:
 
 texts/32:
      parent: groups/8
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/33:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/34:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/35:
      parent: groups/11
-     label: paragraph
+     label: text
      text: Department of Education:
      orig: Department of Education:
      formatting: [bold]
 
 texts/36:
      parent: groups/11
-     label: paragraph
+     label: text
      text: Collaborate with the Health Bureau in conducting epidemiological investigations and assist Health Bureau personnel in implementing necessary epidemic prevention measures at all school levels.
      orig: Collaborate with the Health Bureau in conducting epidemiological investigations and assist Health Bureau personnel in implementing necessary epidemic prevention measures at all school levels.
      formatting: []
 
 texts/37:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/38:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/39:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/40:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/41:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/42:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/43:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/44:
      parent: groups/13
-     label: paragraph
+     label: text
      text: The Health Bureau will handle
      orig: The Health Bureau will handle
      formatting: []
 
 texts/45:
      parent: groups/13
-     label: paragraph
+     label: text
      text: reporting and specimen collection
      orig: reporting and specimen collection
      formatting: [bold]
 
 texts/46:
      parent: groups/13
-     label: paragraph
+     label: text
      text: .
      orig: .
      formatting: []
 
 texts/47:
      parent: groups/12
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/48:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/49:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/50:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/51:
      parent: groups/14
-     label: paragraph
+     label: text
      text: Whether the epidemic has eased.
      orig: Whether the epidemic has eased.
      formatting: [bold]
 
 texts/52:
      parent: groups/14
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/53:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/54:
      parent: groups/15
-     label: paragraph
+     label: text
      text: Whether the test results are positive for a legally designated infectious disease.
      orig: Whether the test results are positive for a legally designated infectious disease.
      formatting: [bold]
 
 texts/55:
      parent: groups/16
-     label: paragraph
+     label: text
      text: No
      orig: No
      formatting: []
 
 texts/56:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/57:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/58:
      parent: groups/17
-     label: paragraph
+     label: text
      text: Yes
      orig: Yes
      formatting: []
 
 texts/59:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/60:
      parent: groups/18
-     label: paragraph
+     label: text
      text: Yes
      orig: Yes
      formatting: []
 
 texts/61:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/62:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/63:
      parent: groups/19
-     label: paragraph
+     label: text
      text: Case closed.
      orig: Case closed.
      formatting: [bold]
 
 texts/64:
      parent: groups/19
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/65:
      parent: groups/21
-     label: paragraph
+     label: text
      text: The
      orig: The
      formatting: []
 
 texts/66:
      parent: groups/21
-     label: paragraph
+     label: text
      text: Health Bureau
      orig: Health Bureau
      formatting: [bold]
 
 texts/67:
      parent: groups/21
-     label: paragraph
+     label: text
      text: will carry out subsequent related epidemic prevention measures and follow-up, and will request assistance from the
      orig: will carry out subsequent related epidemic prevention measures and follow-up, and will request assistance from the
      formatting: []
 
 texts/68:
      parent: groups/21
-     label: paragraph
+     label: text
      text: Centers for Disease Control
      orig: Centers for Disease Control
      formatting: [bold]
 
 texts/69:
      parent: groups/21
-     label: paragraph
+     label: text
      text: if necessary.
      orig: if necessary.
      formatting: []
 
 texts/70:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/71:
      parent: groups/22
-     label: paragraph
+     label: text
      text: No
      orig: No
      formatting: []
 
 texts/72:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/73:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None
 
 texts/74:
      parent: body
-     label: paragraph
+     label: text
      text: 
      orig: 
      formatting: None

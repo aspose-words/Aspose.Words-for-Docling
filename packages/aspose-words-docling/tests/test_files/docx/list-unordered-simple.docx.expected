@@ -1,0 +1,73 @@
+body:     (unspecified)
+     groups/0: (list)
+          texts/0:  (list_item) 'Item1-1'
+          texts/1:  (list_item) 'Item2-2'
+          texts/2:  (list_item) 'Item3-3'
+     texts/3:  (text) 'Paragraph4'
+     groups/1: (list)
+          texts/4:  (list_item) 'Item2-1'
+          texts/5:  (list_item) 'Item2-2'
+
+
+texts/0:
+     parent: groups/0
+     label: list_item
+     text: Item1-1
+     orig: Item1-1
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/1:
+     parent: groups/0
+     label: list_item
+     text: Item2-2
+     orig: Item2-2
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/2:
+     parent: groups/0
+     label: list_item
+     text: Item3-3
+     orig: Item3-3
+     formatting: []
+     enumerated: False
+     marker: 
+
+texts/3:
+     parent: body
+     label: text
+     text: Paragraph4
+     orig: Paragraph4
+     formatting: []
+
+texts/4:
+     parent: groups/1
+     label: list_item
+     text: Item2-1
+     orig: Item2-1
+     formatting: []
+     enumerated: False
+     marker: o
+
+texts/5:
+     parent: groups/1
+     label: list_item
+     text: Item2-2
+     orig: Item2-2
+     formatting: []
+     enumerated: False
+     marker: o
+
+groups/0:
+     parent: body
+     label: list
+     name: list
+
+groups/1:
+     parent: body
+     label: list
+     name: list
+

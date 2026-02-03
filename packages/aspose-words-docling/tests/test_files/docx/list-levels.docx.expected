@@ -54,7 +54,7 @@ texts/4:
      orig: Item-2-b-bullet1
      formatting: []
      enumerated: False
-     marker: 
+     marker: 
 
 texts/5:
      parent: groups/2
@@ -63,7 +63,7 @@ texts/5:
      orig: Item-2-b-bullet2
      formatting: []
      enumerated: False
-     marker: 
+     marker: 
 
 texts/6:
      parent: groups/0

@@ -20,7 +20,7 @@ classifiers = [
 ]
 dependencies = [
   "docling>=2.60.0",
-  "aspose-words>=25.10.0"
+  "aspose-words>=26.1.0"
 ]
 
 [project.urls]
