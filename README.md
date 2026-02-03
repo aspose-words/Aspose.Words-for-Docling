@@ -29,12 +29,13 @@ pip install aspose-words-docling
 ### Python API
 
 ```python
-TODO
-from markitdown import MarkItDown
+from aspose_words_docling import AsposeWordsConverter
 
-md = MarkItDown(enable_plugins=True) # Set to True to enable the plugin
-result = md.convert("test.doc")
-print(result.text_content)
+aspose_converter = AsposeWordsConverter()
+doc = aspose_converter.convert("test.doc")
+
+md = doc.export_to_markdown()
+print(md)
 ```
 
 
