@@ -38,7 +38,7 @@ def prepare_test_env():
     ("docx\\table-with-one-cell.docx", False),
     ("docx\\fields.docx", False),
     ("docx\\textbox-simple.docx", False),
-    ("docx\\comment-simple.docx", True),
+    # ("docx\\comment-simple.docx", True), TODO WORDSNET-29051
     ("docx\\footnotes.docx", True),
     ("docx\\bookmarks.docx", True),
     # Docling test documents

@@ -21,7 +21,7 @@ class AsposeWordsConverter:
         origin = doc_dict.get("origin")
         if origin is not None:
             mimetype = origin.get("mimetype")
-        # Docling doesn't support some mime types.
+        # Docling doesn't support such mime types.
         if (mimetype == "application/rtf" or mimetype == "multipart/related"):
             origin["mimetype"] = "text/plain"
 
